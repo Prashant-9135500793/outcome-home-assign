@@ -1,0 +1,15 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+aiofiles==24.1.0
+aiosqlite==0.21.0
+httpx==0.28.1
+openai==1.82.0
+tenacity==9.1.2
+pdfplumber==0.11.6
+python-docx==1.1.2
+openpyxl==3.1.5
+pandas==2.2.3
+Pillow==11.2.1
+pdf2image==1.17.0
+

@@ -1,0 +1,25 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Data and uploads (runtime generated)
+uploads/
+jobs.db
+jobs.db-journal
+*.db
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Exclude sample raw documents & truth answers from final zip if needed (brief says do not commit sample docs/answers in submission zip)
+# Note: sample/ is currently in git from initial commit, we can git rm --cached if required or follow submission zip command
