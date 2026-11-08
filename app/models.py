@@ -25,6 +25,16 @@ class FieldResult(BaseModel):
     page_numbers: Optional[list[int]] = None
     source_locations: Optional[list[str]] = None
 
+    def to_output(self) -> dict:
+        """Contract shape: value/citation/confidence always present (value may be null);
+        the optional location lists only when we have them."""
+        out = {"value": self.value, "citation": self.citation, "confidence": self.confidence}
+        if self.page_numbers:
+            out["page_numbers"] = self.page_numbers
+        if self.source_locations:
+            out["source_locations"] = self.source_locations
+        return out
+
 
 # ── Metadata ─────────────────────────────────────────────────────────────────
 class ModelBreakdown(BaseModel):

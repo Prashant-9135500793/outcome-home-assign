@@ -1,191 +1,157 @@
-"""Prompt templates for LLM-based extraction."""
+"""Prompt templates for LLM-based extraction.
+
+Two output shapes:
+  - single-entry documents (leases, OMs): {"fields": {key: {"value", "citation", "confidence"}}}
+  - table chunks: {"document": {key: {"value", "citation"}}, "rows": [{"_row"/"_cite", key: value}]}
+    Row values are bare (no per-cell citation objects) to keep output tokens ~3x lower; the
+    extractor attaches citations afterwards (cell lookup for spreadsheets, row cite for text).
+"""
 from __future__ import annotations
+
+import re
 
 from app.models import ExtractionSchema
 
+# Field descriptions that mark a value as document-wide in a table schema
+_DOC_LEVEL_RE = re.compile(
+    r"same (value )?for (every|each|all) (row|entr|line|unit)|same in every (row|entry)|applies to the whole document",
+    re.IGNORECASE,
+)
 
-def build_extraction_prompt(
-    schema: ExtractionSchema,
-    document_text: str,
-    doc_type: str,
-    is_table: bool,
-) -> str:
-    """Build the system + user prompt for extraction."""
 
-    # Build field descriptions
-    field_descriptions = []
-    primary_field = None
-    for key, f in schema.fields.items():
-        desc = f"- **{key}** ({f.name}): {f.description}"
+def doc_level_keys(schema: ExtractionSchema) -> list[str]:
+    """Fields whose value is the same for every row (header values like property name, period)."""
+    return [k for k, f in schema.fields.items() if not f.primary and _DOC_LEVEL_RE.search(f.description or "")]
+
+
+def primary_key(schema: ExtractionSchema) -> str | None:
+    return next((k for k, f in schema.fields.items() if f.primary), None)
+
+
+def fields_block(schema: ExtractionSchema, keys: list[str] | None = None) -> str:
+    keys = keys if keys is not None else list(schema.fields)
+    lines = []
+    for k in keys:
+        f = schema.fields[k]
+        line = f"- `{k}` ({f.name}): {f.description}"
         if f.primary:
-            desc += " [PRIMARY KEY - one per row]"
-            primary_field = key
-        field_descriptions.append(desc)
+            line += "  [ROW IDENTIFIER]"
+        lines.append(line)
+    return "\n".join(lines)
 
-    fields_block = "\n".join(field_descriptions)
 
-    if is_table:
-        entry_instruction = (
-            "This document contains a TABLE with multiple rows. "
-            "Return ONE entry (JSON object) per row in the table. "
-            "Document-level fields (like property name, report date) must be REPEATED "
-            "with the same value in EVERY entry. "
-            f"The primary key field is `{primary_field}` — use it to identify each unique row."
-        )
-    else:
-        entry_instruction = (
-            "This document has NO table. Return exactly ONE entry with all fields."
-        )
+VALUE_RULES = """VALUE FORMAT
+- Numbers: JSON numbers only (1425.5), never strings, no currency symbols, no thousands separators. Negative numbers stay negative; "(1,234)" means -1234.
+- Percentages: the number exactly as the document prints it: "93.75%" -> 93.75, "0.91%" -> 0.91.
+- Dates: "YYYY-MM-DD". A month/year-only field uses the format its description asks for.
+- Booleans: true / false.
+- Lists: JSON arrays, in document order. A list field with nothing to list is [].
+- Text: copy it as written (trim surrounding whitespace). Do not paraphrase fields that say "exactly as shown" or "verbatim".
+- Short-phrase fields ("in a short phrase"): answer concisely using the document's own key words, no parenthetical explanations.
+- Identifiers and names: copy the complete value that follows its label, with every part, space and punctuation mark (e.g. "Property =  417 .417" -> "417 .417", not "417"). Drop only the label itself.
 
-    system_prompt = f"""You are a precise document data extraction system for commercial real estate documents.
+NULL DISCIPLINE (very important)
+- If the document does not contain the value, return null. A wrong value is penalised far more than a null.
+- Never fill a value from general knowledge, typical market terms, or another field's value.
+- Calculated fields ARE expected: when a description says to compute a value (a sum, a count, a difference, a duration), compute it carefully from the document's own figures. Double-check arithmetic.
+- If a description says to use 0, false or [] when something is absent, follow it (that is not a guess).
+- Blank cells: when the cell/column for a field is empty for a record, the value is null - not 0 - unless the description says to use 0 when absent. Never take a value from a neighbouring column."""
 
-TASK: Extract ALL specified fields from the document below. Return a JSON object.
 
-RULES — FOLLOW EXACTLY:
-1. Return valid JSON with a single key "entries" containing a list of objects.
-2. Each entry must contain EVERY field listed below, no exceptions.
-3. Each field value must be an object with exactly these keys:
-   - "value": the extracted value (number, string, date, list, boolean, or null)
-   - "citation": a short verbatim quote from the document showing where you found it, prefixed with location like "[Page 3] Base Rent: $4,250.00" or "[Sheet1!A5] value". Use empty string "" when value is null.
-   - "confidence": a float 0.0-1.0 estimating correctness.
+# ── Single-entry documents ───────────────────────────────────────────────────
+def build_single_entry_prompt(schema: ExtractionSchema, document_text: str, doc_type: str,
+                              part_note: str = "") -> tuple[str, str]:
+    system = f"""You extract structured data from commercial real estate documents with high precision.
 
-4. FORMATTING:
-   - Numbers: JSON numbers only. NO dollar signs, NO commas, NO quotes around numbers. Example: 1425, not "$1,425" or "1425"
-   - Dates: "YYYY-MM-DD" format always. Example: "2024-01-15"
-   - Percentages: as the document prints them. If it says "93.75%", the value is 93.75 (not 0.9375)
-   - Booleans: true or false (JSON booleans)
-   - Lists: JSON arrays. For rent schedule lists, maintain the same order as the document.
-   - Null: use JSON null when the value is genuinely NOT in the document.
+DOCUMENT TYPE: {schema.name}{(' - ' + schema.description) if schema.description else ''}
 
-5. NULL DISCIPLINE — CRITICAL:
-   - If a field is not mentioned in the document, return null. DO NOT GUESS.
-   - A wrong value is MUCH worse than null. When in doubt, return null.
-   - Set confidence < 0.5 for uncertain values and null for values you cannot find.
+The document describes ONE subject, so return ONE set of fields.
 
-6. CITATIONS — IMPORTANT:
-   - Always include the location: [Page N] for PDFs, [Sheet: Name, Cell: XX] or [SheetName!CellRef] for spreadsheets
-   - Quote the actual text/numbers from the source
-   - Empty string "" for null values
+{VALUE_RULES}
 
-{entry_instruction}
+CITATIONS
+- "citation": a short verbatim snippet (under 200 characters) from the document that supports the value, prefixed with its location, e.g. "[Page 3] Base Rent: $4,250.00 per month". For a computed value, cite the main figure(s) you used.
+- Use "" as the citation when the value is null.
+- "confidence": your probability (0.0-1.0) that the value is exactly right. Use < 0.5 when the document is ambiguous.
 
-FIELDS TO EXTRACT:
-{fields_block}
-"""
+Read the whole document before answering: amendments, exhibits, riders and handwritten changes can override earlier text. Use the governing (latest/amended) figure.
 
-    user_prompt = f"""DOCUMENT TYPE: {schema.name} — {schema.description}
-FILE FORMAT: {doc_type.upper()}
+FIELDS
+{fields_block(schema)}
 
-DOCUMENT CONTENT:
+OUTPUT: one JSON object, no prose:
+{{"fields": {{"<field_key>": {{"value": ..., "citation": "...", "confidence": 0.0}}, ...}}}}
+Include every field key listed above exactly once."""
+
+    user = f"""{part_note}FILE FORMAT: {doc_type.upper()}
+
+<document>
 {document_text}
+</document>
 
-Extract ALL fields now. Return ONLY valid JSON, no explanation. Format:
-{{"entries": [{{{", ".join(f'"{k}": {{"value": ..., "citation": "...", "confidence": ...}}' for k in list(schema.fields.keys())[:3])}...}}]}}"""
-
-    return system_prompt, user_prompt
+Return the JSON object now."""
+    return system, user
 
 
-def build_table_extraction_prompt(
+# ── Table chunks ─────────────────────────────────────────────────────────────
+def build_table_chunk_prompt(
     schema: ExtractionSchema,
-    document_text: str,
-    doc_type: str,
-) -> str:
-    """Specialized prompt for large table documents (rent rolls, T12s)."""
-
-    # Identify primary key and doc-level vs row-level fields
-    primary_field = None
-    doc_fields = []
-    row_fields = []
-    for key, f in schema.fields.items():
-        if f.primary:
-            primary_field = key
-            row_fields.append((key, f))
-        elif any(kw in f.description.lower() for kw in ["same for every", "same value", "property name", "report", "period"]):
-            doc_fields.append((key, f))
-        else:
-            row_fields.append((key, f))
-
-    doc_fields_desc = "\n".join(
-        f"- **{k}** ({f.name}): {f.description}" for k, f in doc_fields
-    )
-    row_fields_desc = "\n".join(
-        f"- **{k}** ({f.name}): {f.description}" for k, f in row_fields
-    )
-
-    system_prompt = f"""You are a precise data extraction system for commercial real estate documents containing tables.
-
-TASK: Extract data from a tabular document. The document has:
-1. DOCUMENT-LEVEL fields (same value in every row):
-{doc_fields_desc}
-
-2. ROW-LEVEL fields (one value per row, primary key: {primary_field}):
-{row_fields_desc}
-
-RULES:
-- Return valid JSON: {{"entries": [...]}}
-- ONE entry per row in the table.
-- Every entry must have ALL fields (both document-level and row-level).
-- Document-level fields repeat the same value in every entry.
-- Numbers as JSON numbers (no $, no commas). Dates as "YYYY-MM-DD". Percentages as printed.
-- null when a value is not in the document. DO NOT GUESS.
-- Each field: {{"value": ..., "citation": "...", "confidence": 0.0-1.0}}
-- Citations: include location ([Page N] or [Sheet!Cell]) and verbatim text. "" for nulls.
-"""
-
-    user_prompt = f"""DOCUMENT TYPE: {schema.name} — {schema.description}
-FILE: {doc_type.upper()}
-
-DOCUMENT:
-{document_text}
-
-Extract ALL rows and ALL fields. Return ONLY valid JSON."""
-
-    return system_prompt, user_prompt
-
-
-def build_chunked_extraction_prompt(
-    schema: ExtractionSchema,
+    doc_keys: list[str],
+    row_keys: list[str],
     chunk_text: str,
-    chunk_info: str,
-    doc_type: str,
-    existing_values: dict | None = None,
-) -> str:
-    """Prompt for extracting from a chunk of a large document."""
+    context_text: str,
+    chunk_label: str,
+    is_grid: bool,
+) -> tuple[str, str]:
+    pk = primary_key(schema)
+    if is_grid:
+        loc_rule = ('- "_row": the spreadsheet row number (the r-number in the first column) of the line that '
+                    'starts this row/record, as an integer.')
+        layout = ("The spreadsheet is shown as a table whose first column is the real row number (r8 = row 8) "
+                  "and whose header gives the real column letters. A record may span several consecutive lines "
+                  "(e.g. a unit line followed by its charge lines); fold each record into one row.")
+        row_example = '{"_row": 8, ' + ", ".join(f'"{k}": ...' for k in row_keys[:3]) + ", ...}"
+    else:
+        loc_rule = ('- "_cite": a short verbatim snippet identifying the row, prefixed with its location, '
+                    'e.g. "[Page 2] 6101-0000 Base Rent 1,250,000".')
+        layout = "The document text is split into pages marked [Page N]; tables may be rendered as text or markdown."
+        row_example = '{"_cite": "[Page 1] ...", ' + ", ".join(f'"{k}": ...' for k in row_keys[:3]) + ", ...}"
 
-    field_descriptions = []
-    for key, f in schema.fields.items():
-        desc = f"- **{key}** ({f.name}): {f.description}"
-        if f.primary:
-            desc += " [PRIMARY KEY]"
-        field_descriptions.append(desc)
-
-    fields_block = "\n".join(field_descriptions)
-
-    context = ""
-    if existing_values:
-        context = f"\nVALUES ALREADY EXTRACTED (from other chunks, do not override unless you find a better match):\n{existing_values}\n"
-
-    system_prompt = f"""You are a precise extraction system. You are processing ONE CHUNK of a larger document.
-Extract any values you can find for the fields below. Return null for fields not found in THIS chunk.
-
-RULES:
-- Valid JSON: {{"fields": {{"field_key": {{"value": ..., "citation": "...", "confidence": 0.0-1.0}}, ...}}}}
-- Numbers as JSON numbers, dates as YYYY-MM-DD, percentages as printed.
-- null when not found in this chunk. DO NOT GUESS.
-- Citations: include [Page N] or [Sheet!Cell] prefix.
-{context}
-
-FIELDS:
-{fields_block}
+    doc_section = ""
+    if doc_keys:
+        doc_section = f"""
+DOCUMENT-LEVEL FIELDS (one value for the whole document; usually in the report header, which may be in the CONTEXT section):
+{fields_block(schema, doc_keys)}
 """
 
-    user_prompt = f"""CHUNK: {chunk_info}
-DOCUMENT TYPE: {schema.name}
+    system = f"""You extract table rows from commercial real estate documents with high precision.
 
-CONTENT:
-{chunk_text}
+DOCUMENT TYPE: {schema.name}{(' - ' + schema.description) if schema.description else ''}
 
-Extract what you can. Return ONLY valid JSON."""
+{layout}
+You are given ONE PART of the document ({chunk_label}). Extract every qualifying row that appears in the PART section, and nothing from the CONTEXT section (context is only there so you can read headers, column titles and section names).
+{doc_section}
+ROW-LEVEL FIELDS (one row per record; `{pk}` identifies the row):
+{fields_block(schema, row_keys)}
 
-    return system_prompt, user_prompt
+ROW RULES
+- Which lines count as rows is defined ONLY by the document type description and the field descriptions above. Apply that definition literally to every line, including total and subtotal lines: if a total line meets the definition (for example it has its own identifier and an amount), it IS a row; if the definition excludes it, skip it. Do not apply your own idea of what a "detail line" is.
+- Do not skip rows and do not invent rows. Keep the document's order.
+- Every row must contain every row-level field key; use null where the record has no value.
+- Apply each field description literally. "The nearest header above the line" means the closest header line physically above it in the document, even for a total line whose logical parent is a higher-level heading.
+- Counts over cells (e.g. "number of months with a non-zero value"): go through the cells one by one; a cell showing 0, 0.00 or blank does not count.
+- Classification fields: a line that is a computed result mixing revenue and expenses (net operating income, net income, cash flow) is neither revenue nor expense.
+{loc_rule}
 
+{VALUE_RULES}
+
+OUTPUT: one JSON object, no prose:
+{{"document": {{{", ".join(f'"{k}": {{"value": ..., "citation": "..."}}' for k in doc_keys) if doc_keys else ''}}},
+ "rows": [{row_example}]}}
+If the PART contains no qualifying rows, return "rows": []."""
+
+    user = ""
+    if context_text.strip():
+        user += f"<context>\n{context_text}\n</context>\n\n"
+    user += f"<part label=\"{chunk_label}\">\n{chunk_text}\n</part>\n\nReturn the JSON object now."
+    return system, user
