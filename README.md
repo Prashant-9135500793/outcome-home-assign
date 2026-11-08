@@ -3,7 +3,7 @@
 A service that takes a commercial real estate document (PDF, DOCX, XLSX or CSV) and a field list,
 and returns the extracted values as JSON in the format defined in `contract/`.
 
-**Role applied for:** _TODO: `aiml` or `software`_
+**Role applied for:** AI/ML Developer (`aiml`)
 
 **Sample-set score (`tools/validate.py`):** **0.959 mean** over the 8 sample documents.
 Every output is `VALID`, with **0 hallucinations** and **0 missing rows**. A full pass costs about
