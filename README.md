@@ -66,7 +66,7 @@ Only models on the brief's allowed list are accepted. The service refuses to sta
 ### Tests and the eval loop
 
 ```bash
-.venv/bin/pytest -q                                   # 43 tests, no API calls (LLM is mocked)
+.venv/bin/pytest -q                                   # 49 tests, no API calls (LLM is mocked)
 
 # with the service running:
 python scripts/run_samples.py                         # all 8 samples -> outputs/, then scores them
@@ -255,7 +255,7 @@ app/
     prompts.py         prompt templates
     hints.py           field-description hints learned from the eval loop
 scripts/run_samples.py eval loop: submit samples, write outputs/, score
-tests/                 43 tests (parsers, chunking, truncation recovery, merging, API)
+tests/                 49 tests (parsers, chunking, truncation recovery, merging, defaults, API)
 outputs/               service results for every sample document
 contract/, tools/      interface contract and validator (provided)
 ```
