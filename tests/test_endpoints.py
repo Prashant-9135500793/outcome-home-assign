@@ -127,3 +127,44 @@ async def test_tenant_isolation():
         # Different tenant gets 404 (not 403, per spec!)
         other_resp = await client.get(f"/jobs/{job_id}", headers={"X-Organization-Id": "org-beta"})
         assert other_resp.status_code == 404
+
+
+
+@pytest.mark.asyncio
+async def test_request_without_org_cannot_read_org_job():
+    transport = ASGITransport(app=app)
+    async with AsyncClient(transport=transport, base_url="http://test") as client:
+        schema_json = json.dumps({"name": "iso2", "fields": {"f": {"name": "F", "description": "D"}}})
+        files = {"file": ("o.csv", b"f\nscoped", "text/csv")}
+        resp = await client.post("/jobs", files=files, data={"schema": schema_json},
+                                 headers={"X-Organization-Id": "org-alpha"})
+        job_id = resp.json()["job_id"]
+        assert (await client.get(f"/jobs/{job_id}")).status_code == 404
+
+
+@pytest.mark.asyncio
+async def test_failed_job_is_not_reused_by_dedup():
+    from app.models import JobStatus
+    transport = ASGITransport(app=app)
+    async with AsyncClient(transport=transport, base_url="http://test") as client:
+        schema_json = json.dumps({"name": "retry", "fields": {"f": {"name": "F", "description": "D"}}})
+        files = {"file": ("r.csv", b"f\nretry_me", "text/csv")}
+        job1 = (await client.post("/jobs", files=files, data={"schema": schema_json})).json()
+        await store.update_status(job1["job_id"], JobStatus.FAILED, error={"code": "X", "message": "boom"})
+        files = {"file": ("r.csv", b"f\nretry_me", "text/csv")}
+        job2 = (await client.post("/jobs", files=files, data={"schema": schema_json})).json()
+        assert job2["job_id"] != job1["job_id"]
+
+
+@pytest.mark.asyncio
+async def test_terminal_status_never_changes():
+    from app.models import JobStatus
+    transport = ASGITransport(app=app)
+    async with AsyncClient(transport=transport, base_url="http://test") as client:
+        schema_json = json.dumps({"name": "term", "fields": {"f": {"name": "F", "description": "D"}}})
+        files = {"file": ("t.csv", b"f\nterminal", "text/csv")}
+        job = (await client.post("/jobs", files=files, data={"schema": schema_json})).json()
+        await store.update_status(job["job_id"], JobStatus.SUCCESS, result={"entries": [], "metadata": {}})
+        await store.update_status(job["job_id"], JobStatus.RUNNING, stage="X")
+        await store.update_status(job["job_id"], JobStatus.FAILED, error={"code": "X", "message": "y"})
+        assert (await client.get(f"/jobs/{job['job_id']}")).json()["status"] == "SUCCESS"

@@ -128,7 +128,7 @@ async def create_job(
     job_id = str(uuid.uuid4())
     file_dir = os.path.join(UPLOAD_DIR, job_id)
     os.makedirs(file_dir, exist_ok=True)
-    file_path = os.path.join(file_dir, filename)
+    file_path = os.path.join(file_dir, os.path.basename(filename))  # no path traversal via filename
     with open(file_path, "wb") as f:
         f.write(content)
 
@@ -153,7 +153,7 @@ async def create_job(
 # ── GET /jobs/{job_id} ───────────────────────────────────────────────────────
 @app.get("/jobs/{job_id}")
 async def get_job(job_id: str, x_organization_id: str | None = Header(None)):
-    job = await store.get_job(job_id, org_id=x_organization_id)
+    job = await store.get_job_for_org(job_id, x_organization_id)
     if not job:
         return JSONResponse(status_code=404, content={"code": "NOT_FOUND", "message": "Job not found"})
     return JSONResponse(status_code=200, content=_format_job_response(job))

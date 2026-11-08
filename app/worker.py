@@ -11,13 +11,7 @@ from typing import Optional
 from app.config import WORKERS, JOB_TIMEOUT_SECONDS
 from app.database import JobStore
 from app.llm.client import UsageStats
-from app.models import (
-    ExtractionMetadata,
-    ExtractionSchema,
-    FieldResult,
-    JobStatus,
-    SchemaField,
-)
+from app.models import ExtractionSchema, JobStatus, SchemaField
 from app.pipeline.extractor import extract_document
 
 logger = logging.getLogger(__name__)
@@ -134,7 +128,7 @@ class WorkerPool:
 
         try:
             # Run extraction with timeout
-            entries = await asyncio.wait_for(
+            outcome = await asyncio.wait_for(
                 extract_document(
                     file_path=job["file_path"],
                     filename=job["filename"],
@@ -146,12 +140,13 @@ class WorkerPool:
             )
 
             elapsed_ms = int((time.time() - start_time) * 1000)
+            entries = outcome.entries
 
             # Build result
             result = {
                 "schema": schema.name,
                 "entries": [
-                    {k: v.model_dump(exclude_none=True) for k, v in entry.items()}
+                    {k: v.to_output() for k, v in entry.items()}
                     for entry in entries
                 ],
                 "metadata": {
@@ -160,17 +155,19 @@ class WorkerPool:
                 },
             }
 
-            # Check if we have any entries with all nulls → PARTIAL
+            # PARTIAL: some chunk/page could not be processed, or nothing at all was found
             has_data = any(
                 any(v.value is not None for v in entry.values())
                 for entry in entries
             )
-            status = JobStatus.SUCCESS if has_data else JobStatus.PARTIAL
+            status = JobStatus.SUCCESS if has_data and not outcome.partial else JobStatus.PARTIAL
 
             await self.store.update_status(job_id, status, result=result)
+            if outcome.warnings:
+                logger.warning(f"Job {job_id} warnings: {outcome.warnings}")
             logger.info(
-                f"Job {job_id} completed: status={status}, entries={len(entries)}, "
-                f"cost=${usage.cost_usd:.4f}, latency={elapsed_ms}ms"
+                f"Job {job_id} completed: status={status.value}, entries={len(entries)}, "
+                f"calls={usage.model_calls}, cost=${usage.cost_usd:.4f}, latency={elapsed_ms}ms"
             )
 
         except asyncio.TimeoutError:
@@ -188,6 +185,6 @@ class WorkerPool:
             await self.store.update_status(
                 job_id,
                 JobStatus.FAILED,
-                error={"code": "EXTRACTION_ERROR", "message": str(e)},
+                error={"code": "EXTRACTION_ERROR", "message": f"{type(e).__name__}: {e}"},
             )
 

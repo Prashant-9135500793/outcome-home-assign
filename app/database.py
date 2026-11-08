@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 import json
+import os
+
 import aiosqlite
 from datetime import datetime, timezone
 from typing import Optional
@@ -39,8 +41,12 @@ class JobStore:
         self._db: Optional[aiosqlite.Connection] = None
 
     async def init(self):
+        db_dir = os.path.dirname(self.db_path)
+        if db_dir:
+            os.makedirs(db_dir, exist_ok=True)
         self._db = await aiosqlite.connect(self.db_path)
         self._db.row_factory = aiosqlite.Row
+        await self._db.execute("PRAGMA journal_mode=WAL")
         await self._db.executescript(_CREATE_TABLE)
         await self._db.commit()
         # Recover any jobs that were RUNNING when we crashed
@@ -64,9 +70,13 @@ class JobStore:
     async def find_duplicate(
         self, file_hash: str, schema_hash: str, org_id: Optional[str]
     ) -> Optional[dict]:
-        """Return an existing job for the same file+schema+org, if any."""
+        """Return an existing non-failed job for the same file+schema+org, if any.
+
+        FAILED jobs are excluded so a resubmission after a failure gets a fresh attempt.
+        """
         cursor = await self._db.execute(
-            "SELECT * FROM jobs WHERE file_hash = ? AND schema_hash = ? AND org_id IS ?",
+            "SELECT * FROM jobs WHERE file_hash = ? AND schema_hash = ? AND org_id IS ? "
+            "AND status != 'FAILED' ORDER BY created_at DESC LIMIT 1",
             (file_hash, schema_hash, org_id),
         )
         row = await cursor.fetchone()
@@ -93,15 +103,18 @@ class JobStore:
         await self._db.commit()
         return await self.get_job(job_id)
 
-    async def get_job(self, job_id: str, org_id: Optional[str] = None) -> Optional[dict]:
-        if org_id is not None:
-            cursor = await self._db.execute(
-                "SELECT * FROM jobs WHERE job_id = ? AND org_id IS ?", (job_id, org_id)
-            )
-        else:
-            cursor = await self._db.execute(
-                "SELECT * FROM jobs WHERE job_id = ?", (job_id,)
-            )
+    async def get_job(self, job_id: str) -> Optional[dict]:
+        """Internal lookup (workers): no tenant scoping."""
+        cursor = await self._db.execute("SELECT * FROM jobs WHERE job_id = ?", (job_id,))
+        row = await cursor.fetchone()
+        return dict(row) if row else None
+
+    async def get_job_for_org(self, job_id: str, org_id: Optional[str]) -> Optional[dict]:
+        """API lookup: a job is visible only to the organisation that created it. Requests without
+        X-Organization-Id see only jobs created without one."""
+        cursor = await self._db.execute(
+            "SELECT * FROM jobs WHERE job_id = ? AND org_id IS ?", (job_id, org_id)
+        )
         row = await cursor.fetchone()
         return dict(row) if row else None
 
