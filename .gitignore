@@ -23,3 +23,11 @@ Thumbs.db
 
 # Exclude sample raw documents & truth answers from final zip if needed (brief says do not commit sample docs/answers in submission zip)
 # Note: sample/ is currently in git from initial commit, we can git rm --cached if required or follow submission zip command
+
+
+# SQLite WAL files and IDE settings
+jobs.db-shm
+jobs.db-wal
+*.db-shm
+*.db-wal
+.idea/

@@ -1,28 +1,24 @@
 FROM python:3.11-slim
 
-# Install system dependencies (poppler for pdf2image)
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    poppler-utils \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
+# PDF page rendering uses pypdfium2 (bundled binary), so no system packages are needed.
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1
 
 WORKDIR /app
 
-# Copy dependency definition
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
-# Copy source code and schemas
 COPY app/ ./app/
-COPY sample/schemas/ ./sample/schemas/
 
-# Expose port
+ENV PORT=8080 \
+    DB_PATH=/data/jobs.db \
+    UPLOAD_DIR=/data/uploads
+
 EXPOSE 8080
 
-# Environment defaults
-ENV PORT=8080
-ENV PYTHONUNBUFFERED=1
-ENV LLM_BASE_URL=https://openrouter.ai/api/v1
+HEALTHCHECK --interval=10s --timeout=3s --start-period=10s --retries=3 \
+    CMD python -c "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://localhost:8080/health').status==200 else 1)"
 
-# Start the application
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
