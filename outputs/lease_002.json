@@ -25,7 +25,7 @@
       "premises": {
         "value": "Suite 310",
         "citation": "[Page 1] approximately 1,842 rentable square feet known as Suite 310",
-        "confidence": 0.96
+        "confidence": 0.97
       },
       "rentable_square_footage": {
         "value": 1842,
@@ -35,7 +35,7 @@
       "pro_rata_share": {
         "value": null,
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.8
       },
       "permitted_use": {
         "value": "general office purposes",
@@ -64,8 +64,8 @@
       },
       "lease_term_months": {
         "value": 19,
-        "citation": "[Page 1] for the term of one (1) year and seven (7) months",
-        "confidence": 0.97
+        "citation": "[Page 1] one (1) year and seven (7) months, commencing on the 1st day of October, 2025 and terminating on the 30th day of April, 2027",
+        "confidence": 0.96
       },
       "rent_schedule_start_dates": {
         "value": [
@@ -79,25 +79,25 @@
           "2027-04-30"
         ],
         "citation": "[Page 2] October 1, 2025 through April 30, 2027 $2,845.00",
-        "confidence": 0.8
+        "confidence": 0.85
       },
       "rent_schedule_monthly_rent": {
         "value": [
           2845
         ],
         "citation": "[Page 2] October 1, 2025 through April 30, 2027 $2,845.00",
-        "confidence": 0.95
+        "confidence": 0.96
       },
       "rent_schedule_annual_rent_per_rsf": {
         "value": [
           18.53
         ],
-        "citation": "[Page 2] $2,845.00 monthly; 1,842 RSF (2,845 x 12 / 1,842)",
+        "citation": "[Page 2] $2,845.00 monthly; 1,842 RSF (2845*12/1842)",
         "confidence": 0.6
       },
       "total_base_rent": {
         "value": 54055,
-        "citation": "[Page 2] $2,845.00 per month x 19 months",
+        "citation": "[Page 2] $2,845.00 monthly x 19 months",
         "confidence": 0.6
       },
       "base_rent_escalation": {
@@ -107,88 +107,88 @@
       },
       "free_rent_months": {
         "value": 3,
-        "citation": "[Page 2] abate in an amount equal to the first three (3) full calendar months of Base Rent",
+        "citation": "[Page 2] monthly Base Rent shall abate in an amount equal to the first three (3) full calendar months of Base Rent",
         "confidence": 0.95
       },
       "security_deposit_amount": {
         "value": 2850,
-        "citation": "[Page 9] Two Thousand Eight Hundred Fifty and 00/100 Dollars ($2,850.00)",
-        "confidence": 0.97
+        "citation": "[Page 5] the sum of Two Thousand Eight Hundred Fifty and 00/100 Dollars ($2,850.00)",
+        "confidence": 0.96
       },
       "letter_of_credit_required": {
         "value": false,
-        "citation": "",
-        "confidence": 0.93
+        "citation": "[Page 5] SECURITY DEPOSIT ... Collateral (cash deposit)",
+        "confidence": 0.6
       },
       "expense_structure": {
         "value": null,
         "citation": "",
-        "confidence": 0.75
+        "confidence": 0.6
       },
       "base_year_expenses": {
         "value": null,
         "citation": "",
-        "confidence": 0.93
+        "confidence": 0.7
       },
       "base_year_taxes": {
         "value": null,
         "citation": "",
-        "confidence": 0.93
+        "confidence": 0.7
       },
       "electricity_provision": {
         "value": "Separately metered and billed directly to Tenant by Commonwealth Edison",
-        "citation": "[Page 3] shall be separately metered and billed directly to, and be the sole responsibility of, Tenant by Commonwealth Edison",
+        "citation": "[Page 2] shall be separately metered and billed directly to, and be the sole responsibility of, Tenant by Commonwealth Edison",
         "confidence": 0.93
       },
       "parking_spaces": {
         "value": null,
         "citation": "",
-        "confidence": 0.95
+        "confidence": 0.9
       },
       "parking_monthly_charge": {
         "value": null,
         "citation": "",
-        "confidence": 0.95
+        "confidence": 0.9
       },
       "ti_allowance_total": {
         "value": null,
         "citation": "",
-        "confidence": 0.93
+        "confidence": 0.88
       },
       "renewal_option_exists": {
         "value": false,
         "citation": "",
-        "confidence": 0.92
+        "confidence": 0.7
       },
       "renewal_options_count": {
         "value": 0,
         "citation": "",
-        "confidence": 0.92
+        "confidence": 0.7
       },
       "renewal_term_months": {
         "value": [],
         "citation": "",
-        "confidence": 0.92
+        "confidence": 0.7
       },
       "renewal_notice_months": {
         "value": [],
         "citation": "",
-        "confidence": 0.92
+        "confidence": 0.7
       },
       "early_termination_right": {
         "value": false,
         "citation": "",
-        "confidence": 0.92
+        "confidence": 0.75
       },
       "termination_fee_description": {
         "value": null,
         "citation": "",
-        "confidence": 0.92
+        "confidence": 0.8
       },
       "right_to_sublet": {
         "value": "with the prior written consent of Landlord, not unreasonably withheld",
-        "citation": "[Page 8] Tenant shall not, without the prior written consent of Landlord (i) assign this Lease... Landlord agrees not to unreasonably withhold its consent",
-        "confidence": 0.85
+        "citation": "[Page 4] Tenant shall not, without the prior written consent of Landlord ... Landlord agrees not to unreasonably withhold its consent",
+        "confidence": 0.82
       },
       "guarantor_name": {
         "value": null,
@@ -199,34 +199,40 @@
         "value": [
           "PINNACLE REALTY"
         ],
-        "citation": "[Page 10] Tenant has dealt with (and only with) PINNACLE REALTY, as broker",
-        "confidence": 0.93
+        "citation": "[Page 5] Tenant has dealt with (and only with) PINNACLE REALTY, as broker",
+        "confidence": 0.95
       },
       "late_fee": {
         "value": "One Hundred Fifty and 00/100 Dollars ($150.00) late charge and shall bear interest until paid at the annual rate of four (4%) percent in excess of the Corporate base rate then announced from time to time by FIRST MERIDIAN",
-        "citation": "[Page 7] will be subject to a One Hundred Fifty and 00/100 Dollars ($150.00) late charge and shall bear interest until paid at the annual rate of four (4%) percent...",
-        "confidence": 0.92
+        "citation": "[Page 4] subject to a One Hundred Fifty and 00/100 Dollars ($150.00) late charge and shall bear interest until paid at the annual rate of four (4%) percent in excess of the Corporate base rate",
+        "confidence": 0.93
       },
       "holdover_rent": {
         "value": "double the Base Rent set forth in Paragraph 1 hereof and any appropriate Additional Rent then applicable",
-        "citation": "[Page 8] Tenant shall pay to Landlord double the Base Rent set forth in Paragraph 1 hereof and any appropriate Additional Rent then applicable",
-        "confidence": 0.92
+        "citation": "[Page 4] Tenant shall pay to Landlord double the Base Rent set forth in Paragraph 1 hereof and any appropriate Additional Rent then applicable (the \u201cHoldover Rate\u201d)",
+        "confidence": 0.94
       }
     }
   ],
   "metadata": {
-    "model_calls": 1,
-    "tokens_in": 28548,
-    "tokens_out": 3462,
-    "cost_usd": 0.091716,
+    "model_calls": 2,
+    "tokens_in": 41778,
+    "tokens_out": 7248,
+    "cost_usd": 0.067148,
     "models": {
+      "anthropic/claude-haiku-5.5": {
+        "calls": 1,
+        "tokens_in": 28088,
+        "tokens_out": 3739,
+        "cost_usd": 0.004678
+      },
       "anthropic/claude-sonnet-5.5": {
         "calls": 1,
-        "tokens_in": 28548,
-        "tokens_out": 3462,
-        "cost_usd": 0.091716
+        "tokens_in": 13690,
+        "tokens_out": 3509,
+        "cost_usd": 0.06247
       }
     },
-    "latency_ms": 23767
+    "latency_ms": 36517
   }
 }

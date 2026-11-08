@@ -12,8 +12,8 @@
       },
       "landlord_legal_name": {
         "value": "TRENT MA-II HOLLIS OFFICE PLAZA, INC.",
-        "citation": "[Page 2] LANDLORD: TRENT MA-II HOLLIS OFFICE PLAZA, INC. a Delaware corporation",
-        "confidence": 0.97,
+        "citation": "[Page 2] TRENT MA-II HOLLIS OFFICE PLAZA, INC. LANDLORD: a Delaware corporation",
+        "confidence": 0.95,
         "page_numbers": [
           2
         ]
@@ -21,14 +21,14 @@
       "property_name": {
         "value": "Hollis Office Plaza",
         "citation": "[Page 2] BUILDING: Hollis Office Plaza",
-        "confidence": 0.97,
+        "confidence": 0.95,
         "page_numbers": [
           2
         ]
       },
       "building_address": {
         "value": "1850 Hollis Road, Fairmont Hills, Illinois 60517",
-        "citation": "[Page 2] BUILDING: Hollis Office Plaza 1850 Hollis Road Fairmont Hills, Illinois 60517",
+        "citation": "[Page 2] 1850 Hollis Road Fairmont Hills, Illinois 60517",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -37,7 +37,7 @@
       "premises": {
         "value": "Suite 214W",
         "citation": "[Page 2] PREMISES: Second Floor, West Section, Suite 214W",
-        "confidence": 0.85,
+        "confidence": 0.8,
         "page_numbers": [
           2
         ]
@@ -61,7 +61,7 @@
       "permitted_use": {
         "value": "General Office: Architecture",
         "citation": "[Page 2] USE: General Office: Architecture",
-        "confidence": 0.93,
+        "confidence": 0.95,
         "page_numbers": [
           2
         ]
@@ -69,7 +69,7 @@
       "lease_execution_date": {
         "value": "1993-03-05",
         "citation": "[Page 2] LEASE REFERENCE DATE: March 5 , 19 93",
-        "confidence": 0.8,
+        "confidence": 0.7,
         "page_numbers": [
           2
         ]
@@ -85,7 +85,7 @@
       "rent_commencement_date": {
         "value": "1993-05-01",
         "citation": "[Page 18] 05/01/93 - 04/30/94 | $ 23,184 | $ 1,932 | 12",
-        "confidence": 0.9,
+        "confidence": 0.85,
         "page_numbers": [
           18
         ]
@@ -156,7 +156,7 @@
           13.39,
           13.79
         ],
-        "citation": "[Page 18] Annual Base Rent $23,184 ... $26,088; RSF 1,892",
+        "citation": "[Page 18] Annual Base Rent $23,184 ... $26,088; RSF 1,892 (computed)",
         "confidence": 0.6,
         "page_numbers": [
           18
@@ -172,16 +172,16 @@
       },
       "base_rent_escalation": {
         "value": "fixed steps per schedule",
-        "citation": "[Page 18] 43. BASE RENT SCHEDULE (annual steps)",
-        "confidence": 0.6,
+        "citation": "[Page 18] 43. BASE RENT SCHEDULE",
+        "confidence": 0.8,
         "page_numbers": [
           18
         ]
       },
       "free_rent_months": {
         "value": 0,
-        "citation": "[Page 18] Base rent schedule shows 12 installments each year; no base rent abatement",
-        "confidence": 0.6,
+        "citation": "[Page 18] 05/01/93 - 04/30/94 | $ 23,184 | $ 1,932 | 12 | $ 23,184",
+        "confidence": 0.8,
         "page_numbers": [
           18
         ]
@@ -189,23 +189,20 @@
       "security_deposit_amount": {
         "value": 2150,
         "citation": "[Page 2] SECURITY DEPOSIT: $ [struck: 2,400] [handwritten: 2150 M Delacroix]",
-        "confidence": 0.8,
+        "confidence": 0.75,
         "page_numbers": [
           2
         ]
       },
       "letter_of_credit_required": {
         "value": false,
-        "citation": "[Page 4] Tenant has deposited with Landlord the Security Deposit.",
-        "confidence": 0.9,
-        "page_numbers": [
-          4
-        ]
+        "citation": "",
+        "confidence": 0.9
       },
       "expense_structure": {
         "value": "base year 1993",
         "citation": "[Page 2] BASE YEAR (DIRECT EXPENSES): 19 93",
-        "confidence": 0.92,
+        "confidence": 0.9,
         "page_numbers": [
           2
         ]
@@ -228,11 +225,10 @@
       },
       "electricity_provision": {
         "value": "Furnished by Landlord during ordinary business hours; excess electricity separately metered and paid by Tenant as additional rent",
-        "citation": "[Page 7] (f) electricity for lighting, convenience outlets and other direct uses; [Page 8] Tenant agrees to pay as additional rent ... electric current consumed (as shown by said meters",
-        "confidence": 0.8,
+        "citation": "[Page 7] (f) electricity for lighting, convenience outlets and other direct uses",
+        "confidence": 0.7,
         "page_numbers": [
-          7,
-          8
+          7
         ]
       },
       "parking_spaces": {
@@ -248,27 +244,27 @@
       "ti_allowance_total": {
         "value": null,
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.85
       },
       "renewal_option_exists": {
         "value": false,
         "citation": "",
-        "confidence": 0.88
+        "confidence": 0.85
       },
       "renewal_options_count": {
         "value": 0,
         "citation": "",
-        "confidence": 0.88
+        "confidence": 0.85
       },
       "renewal_term_months": {
         "value": [],
         "citation": "",
-        "confidence": 0.88
+        "confidence": 0.85
       },
       "renewal_notice_months": {
         "value": [],
         "citation": "",
-        "confidence": 0.88
+        "confidence": 0.85
       },
       "early_termination_right": {
         "value": false,
@@ -278,12 +274,12 @@
       "termination_fee_description": {
         "value": null,
         "citation": "",
-        "confidence": 0.88
+        "confidence": 0.9
       },
       "right_to_sublet": {
         "value": "with the prior written consent of Landlord",
-        "citation": "[Page 6] Tenant shall not have the right to assign or pledge this Lease or to sublet ... without the prior written consent of Landlord",
-        "confidence": 0.9,
+        "citation": "[Page 6] without the prior written consent of Landlord",
+        "confidence": 0.85,
         "page_numbers": [
           6
         ]
@@ -308,8 +304,8 @@
       },
       "late_fee": {
         "value": "the greater of: (a) $75.00, or (b) a sum equal to 6% of the unpaid rent or other payment",
-        "citation": "[Page 3] late charge in an amount equal to the greater of: (a) $75.00, or (b) a sum equal to 6% of the unpaid rent or other payment",
-        "confidence": 0.9,
+        "citation": "[Page 3] a late charge in an amount equal to the greater of: (a) $75.00, or (b) a sum equal to 6% of the unpaid rent or other payment",
+        "confidence": 0.93,
         "page_numbers": [
           3
         ]
@@ -317,7 +313,7 @@
       "holdover_rent": {
         "value": "150% of the amount of the Annual Rent for the last period prior to the date of such termination plus all Rent Adjustments as provided for in Article 41 prorated on a daily basis",
         "citation": "[Page 8] 150% of the amount of the Annual Rent for the last period prior to the date of such termination plus all Rent Adjustments as provided for in Article 41 prorated on a daily basis",
-        "confidence": 0.92,
+        "confidence": 0.93,
         "page_numbers": [
           8
         ]
@@ -325,24 +321,30 @@
     }
   ],
   "metadata": {
-    "model_calls": 26,
-    "tokens_in": 98148,
-    "tokens_out": 24352,
-    "cost_usd": 0.114406,
+    "model_calls": 27,
+    "tokens_in": 117659,
+    "tokens_out": 31394,
+    "cost_usd": 0.084217,
     "models": {
       "z-ai/glm-5.3-flash": {
         "calls": 25,
         "tokens_in": 60650,
-        "tokens_out": 20411,
+        "tokens_out": 20281,
         "cost_usd": 0.0
+      },
+      "anthropic/claude-haiku-5.5": {
+        "calls": 1,
+        "tokens_in": 36619,
+        "tokens_out": 7511,
+        "cost_usd": 0.007417
       },
       "anthropic/claude-sonnet-5.5": {
         "calls": 1,
-        "tokens_in": 37498,
-        "tokens_out": 3941,
-        "cost_usd": 0.114406
+        "tokens_in": 20390,
+        "tokens_out": 3602,
+        "cost_usd": 0.0768
       }
     },
-    "latency_ms": 72318
+    "latency_ms": 73927
   }
 }

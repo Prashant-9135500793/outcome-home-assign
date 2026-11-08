@@ -5,47 +5,47 @@
       "property_name": {
         "value": "Marlowe Park Modern Apartments",
         "citation": "[Page 3] Property Name Marlowe Park Modern Apartments",
-        "confidence": 0.95,
+        "confidence": 0.97,
         "page_numbers": [
           3
         ]
       },
       "address": {
         "value": "7420 E 52nd Ave.",
-        "citation": "[Page 3] Property Address 7420 E 52nd Ave. Fairhaven, CO 80271",
-        "confidence": 0.9,
+        "citation": "[Page 2] Address 7420 E 52nd Ave. Fairhaven, CO 80271",
+        "confidence": 0.95,
         "page_numbers": [
-          3
+          2
         ]
       },
       "city": {
         "value": "Fairhaven",
-        "citation": "[Page 3] Property Address 7420 E 52nd Ave. Fairhaven, CO 80271",
-        "confidence": 0.95,
+        "citation": "[Page 2] Address 7420 E 52nd Ave. Fairhaven, CO 80271",
+        "confidence": 0.97,
         "page_numbers": [
-          3
+          2
         ]
       },
       "state": {
         "value": "CO",
-        "citation": "[Page 3] Property Address 7420 E 52nd Ave. Fairhaven, CO 80271",
-        "confidence": 0.95,
+        "citation": "[Page 2] Address 7420 E 52nd Ave. Fairhaven, CO 80271",
+        "confidence": 0.98,
         "page_numbers": [
-          3
+          2
         ]
       },
       "zip_code": {
         "value": "80271",
-        "citation": "[Page 3] Property Address 7420 E 52nd Ave. Fairhaven, CO 80271",
-        "confidence": 0.95,
+        "citation": "[Page 2] Address 7420 E 52nd Ave. Fairhaven, CO 80271",
+        "confidence": 0.97,
         "page_numbers": [
-          3
+          2
         ]
       },
       "county": {
         "value": "Harlan",
         "citation": "[Page 3] County Harlan",
-        "confidence": 0.95,
+        "confidence": 0.96,
         "page_numbers": [
           3
         ]
@@ -53,7 +53,7 @@
       "submarket": {
         "value": "Fairhaven International Airport",
         "citation": "[Page 18] Property is located in Harlan County in the Fairhaven International Airport submarket.",
-        "confidence": 0.9,
+        "confidence": 0.93,
         "page_numbers": [
           18
         ]
@@ -61,7 +61,7 @@
       "broker_name": {
         "value": "Ridgeline Capital Advisors",
         "citation": "[Page 2] Ridgeline Capital Advisors is pleased to present MARLOWE PARK MODERN APARTMENTS",
-        "confidence": 0.9,
+        "confidence": 0.93,
         "page_numbers": [
           2
         ]
@@ -69,7 +69,7 @@
       "units": {
         "value": 188,
         "citation": "[Page 2] Number of Units 188",
-        "confidence": 0.97,
+        "confidence": 0.99,
         "page_numbers": [
           2
         ]
@@ -77,7 +77,7 @@
       "year_built": {
         "value": 2022,
         "citation": "[Page 3] Year Built 2022",
-        "confidence": 0.95,
+        "confidence": 0.97,
         "page_numbers": [
           3
         ]
@@ -85,12 +85,12 @@
       "year_renovated": {
         "value": null,
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.95
       },
       "building_type": {
         "value": "Garden",
         "citation": "[Page 2] Building Type Garden",
-        "confidence": 0.95,
+        "confidence": 0.97,
         "page_numbers": [
           2
         ]
@@ -98,7 +98,7 @@
       "number_of_buildings": {
         "value": 13,
         "citation": "[Page 2] Number of Buildings 13",
-        "confidence": 0.95,
+        "confidence": 0.98,
         "page_numbers": [
           2
         ]
@@ -106,7 +106,7 @@
       "stories": {
         "value": "2 & 3",
         "citation": "[Page 2] Number of Stories 2 & 3",
-        "confidence": 0.95,
+        "confidence": 0.97,
         "page_numbers": [
           2
         ]
@@ -114,7 +114,7 @@
       "rentable_sf": {
         "value": 190142,
         "citation": "[Page 2] Rentable SF 190,142 SF",
-        "confidence": 0.97,
+        "confidence": 0.98,
         "page_numbers": [
           2
         ]
@@ -122,7 +122,7 @@
       "average_unit_sf": {
         "value": 1011,
         "citation": "[Page 2] Avg. Unit Size 1,011 SF",
-        "confidence": 0.95,
+        "confidence": 0.98,
         "page_numbers": [
           2
         ]
@@ -130,7 +130,7 @@
       "site_acres": {
         "value": 9.52,
         "citation": "[Page 2] Site Area 9.520 acres",
-        "confidence": 0.95,
+        "confidence": 0.98,
         "page_numbers": [
           2
         ]
@@ -138,7 +138,7 @@
       "parking_spaces": {
         "value": 266,
         "citation": "[Page 4] Total Parking Spaces 266",
-        "confidence": 0.95,
+        "confidence": 0.97,
         "page_numbers": [
           4
         ]
@@ -146,7 +146,7 @@
       "parking_ratio": {
         "value": 1.41,
         "citation": "[Page 4] Parking Ratio 1.41",
-        "confidence": 0.95,
+        "confidence": 0.97,
         "page_numbers": [
           4
         ]
@@ -154,22 +154,22 @@
       "asking_price": {
         "value": null,
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.93
       },
       "price_per_unit": {
         "value": null,
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.93
       },
       "asking_cap_rate": {
         "value": null,
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.93
       },
       "occupancy_pct": {
         "value": 71,
         "citation": "[Page 19] Marlowe Park Modern Apartments is 71% leased as of the 9/13/2023 rent roll",
-        "confidence": 0.9,
+        "confidence": 0.95,
         "page_numbers": [
           19
         ]
@@ -185,7 +185,7 @@
       "market_rent": {
         "value": 2260,
         "citation": "[Page 2] Market Rent $2,260",
-        "confidence": 0.95,
+        "confidence": 0.96,
         "page_numbers": [
           2
         ]
@@ -193,7 +193,7 @@
       "market_rent_psf": {
         "value": 2.23,
         "citation": "[Page 2] Market Rent PSF $2.23",
-        "confidence": 0.95,
+        "confidence": 0.97,
         "page_numbers": [
           2
         ]
@@ -231,10 +231,10 @@
     }
   ],
   "metadata": {
-    "model_calls": 2,
-    "tokens_in": 21295,
-    "tokens_out": 1723,
-    "cost_usd": 0.053118,
+    "model_calls": 3,
+    "tokens_in": 35522,
+    "tokens_out": 3312,
+    "cost_usd": 0.047695,
     "models": {
       "z-ai/glm-5.3-flash": {
         "calls": 1,
@@ -242,13 +242,19 @@
         "tokens_out": 63,
         "cost_usd": 0.0
       },
+      "anthropic/claude-haiku-5.5": {
+        "calls": 1,
+        "tokens_in": 17623,
+        "tokens_out": 1714,
+        "cost_usd": 0.002619
+      },
       "anthropic/claude-sonnet-5.5": {
         "calls": 1,
-        "tokens_in": 18259,
-        "tokens_out": 1660,
-        "cost_usd": 0.053118
+        "tokens_in": 14863,
+        "tokens_out": 1535,
+        "cost_usd": 0.045076
       }
     },
-    "latency_ms": 23746
+    "latency_ms": 19388
   }
 }

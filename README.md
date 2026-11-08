@@ -8,7 +8,7 @@ and returns the extracted values as JSON in the format defined in `contract/`.
 **Sample-set score (`tools/validate.py`):** **0.987 mean** over the 8 sample documents
 (0.984, 0.987 and 0.987 in three consecutive full runs).
 Every output is `VALID`, with **0 hallucinations** and **0 missing rows**. A full pass costs about
-**$0.50**, roughly 6¢ per document.
+**$0.42**, roughly 5¢ per document (was $0.51 before evidence page selection, same score).
 
 ---
 
@@ -60,6 +60,8 @@ without the header, get a 404 for it.
 | `OCR_MODEL` | `z-ai/glm-5.3-flash` | Vision model that transcribes scanned pages |
 | `TABLE_REASONING` / `DOCUMENT_REASONING` / `OCR_REASONING` | `low` / `default` / `low` | Reasoning effort per call type (`off`, `low`, `medium`, `high`, `default`) |
 | `LLM_CONCURRENCY_PER_MODEL` | `16` | Parallel calls per model across all jobs |
+| `DOCUMENT_PAGE_SELECTION` | `on` | Haiku picks the evidence pages of a lease/OM so Sonnet reads only those (`off` = whole document) |
+| `SELECT_REASONING` | `high` | Reasoning effort for that page-selection call (`low` missed answer pages) |
 
 Only models on the brief's allowed list are accepted. The service refuses to start with any other.
 
@@ -235,7 +237,7 @@ GPT-6.1-sol 2/10 · Gemini Pro 2/12.
 | Accuracy round 2 (lease harness runs, table check, 4 full Docker runs) | $3.70 |
 
 The lease harness caches OCR and runs only the extraction step, so one iteration costs about
-$0.33 instead of a full pass. Each full sample pass costs about $0.50.
+$0.33 instead of a full pass. Each full sample pass costs about $0.42 (about $0.50 before evidence page selection).
 
 ---
 

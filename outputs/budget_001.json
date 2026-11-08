@@ -4,8 +4,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -28,7 +28,7 @@
       },
       "gl_code": {
         "value": "6101-0000",
-        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444 6,628 0.09% -322,938 -4.31%",
+        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -36,7 +36,7 @@
       },
       "line_item": {
         "value": "Minimum Base Rent",
-        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444 6,628 0.09% -322,938 -4.31%",
+        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -44,7 +44,7 @@
       },
       "section": {
         "value": "Rent Revenue",
-        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444 6,628 0.09% -322,938 -4.31%",
+        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -52,7 +52,7 @@
       },
       "prior_year_budget": {
         "value": 7481754,
-        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444 6,628 0.09% -322,938 -4.31%",
+        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -60,7 +60,7 @@
       },
       "prior_year_reforecast": {
         "value": 7488382,
-        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444 6,628 0.09% -322,938 -4.31%",
+        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -68,7 +68,7 @@
       },
       "budget": {
         "value": 7165444,
-        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444 6,628 0.09% -322,938 -4.31%",
+        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -76,7 +76,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 6628,
-        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444 6,628 0.09% -322,938 -4.31%",
+        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -84,7 +84,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 0.09,
-        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444 6,628 0.09% -322,938 -4.31%",
+        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -92,7 +92,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -322938,
-        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444 6,628 0.09% -322,938 -4.31%",
+        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -100,7 +100,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -4.31,
-        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444 6,628 0.09% -322,938 -4.31%",
+        "citation": "[Page 1] 6101-0000 Minimum Base Rent 7,481,754 7,488,382 7,165,444",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -115,8 +115,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -139,7 +139,7 @@
       },
       "gl_code": {
         "value": "6102-0000",
-        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372 -227,930 -46.78% 386,820 54.09% The Meridian Refurbishment Allowance",
+        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -147,7 +147,7 @@
       },
       "line_item": {
         "value": "Rent Abatement",
-        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372 -227,930 -46.78% 386,820 54.09% The Meridian Refurbishment Allowance",
+        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -155,7 +155,7 @@
       },
       "section": {
         "value": "Rent Revenue",
-        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372 -227,930 -46.78% 386,820 54.09% The Meridian Refurbishment Allowance",
+        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -163,7 +163,7 @@
       },
       "prior_year_budget": {
         "value": -487261,
-        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372 -227,930 -46.78% 386,820 54.09% The Meridian Refurbishment Allowance",
+        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -171,7 +171,7 @@
       },
       "prior_year_reforecast": {
         "value": -715191,
-        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372 -227,930 -46.78% 386,820 54.09% The Meridian Refurbishment Allowance",
+        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -179,7 +179,7 @@
       },
       "budget": {
         "value": -328372,
-        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372 -227,930 -46.78% 386,820 54.09% The Meridian Refurbishment Allowance",
+        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -187,7 +187,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -227930,
-        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372 -227,930 -46.78% 386,820 54.09% The Meridian Refurbishment Allowance",
+        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -195,7 +195,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -46.78,
-        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372 -227,930 -46.78% 386,820 54.09% The Meridian Refurbishment Allowance",
+        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -203,7 +203,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 386820,
-        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372 -227,930 -46.78% 386,820 54.09% The Meridian Refurbishment Allowance",
+        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -211,7 +211,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 54.09,
-        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372 -227,930 -46.78% 386,820 54.09% The Meridian Refurbishment Allowance",
+        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -219,7 +219,7 @@
       },
       "explanation_of_variance": {
         "value": "The Meridian Refurbishment Allowance of $468,950 was coded as an abatement in 2020.",
-        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372 -227,930 -46.78% 386,820 54.09% The Meridian Refurbishment Allowance",
+        "citation": "[Page 1] 6102-0000 Rent Abatement -487,261 -715,191 -328,372",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -229,8 +229,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -253,7 +253,7 @@
       },
       "gl_code": {
         "value": "6105-0000",
-        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497 -157,995 -73.08% 47,307 81.30%",
+        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -261,7 +261,7 @@
       },
       "line_item": {
         "value": "Parking Income",
-        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497 -157,995 -73.08% 47,307 81.30%",
+        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -269,7 +269,7 @@
       },
       "section": {
         "value": "Other Rental Revenue",
-        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497 -157,995 -73.08% 47,307 81.30%",
+        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -277,7 +277,7 @@
       },
       "prior_year_budget": {
         "value": 216185,
-        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497 -157,995 -73.08% 47,307 81.30%",
+        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -285,7 +285,7 @@
       },
       "prior_year_reforecast": {
         "value": 58190,
-        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497 -157,995 -73.08% 47,307 81.30%",
+        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -293,7 +293,7 @@
       },
       "budget": {
         "value": 105497,
-        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497 -157,995 -73.08% 47,307 81.30%",
+        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -301,7 +301,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -157995,
-        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497 -157,995 -73.08% 47,307 81.30%",
+        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -309,7 +309,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -73.08,
-        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497 -157,995 -73.08% 47,307 81.30%",
+        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -317,7 +317,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 47307,
-        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497 -157,995 -73.08% 47,307 81.30%",
+        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -325,7 +325,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 81.3,
-        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497 -157,995 -73.08% 47,307 81.30%",
+        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -333,7 +333,7 @@
       },
       "explanation_of_variance": {
         "value": "Starting in April 2020 monthly parking accounts were put on hold due to the pandemic and tenants working from home. The garage operated at less then 20% of normal activity. To mitigate the losses, the garage has only 1 attendant (versus 3 attendants) for the rest of 2020. In 2021 we are assuming only 1 attendant as well. The projections for 2021 are assuming the first quarter is at the 2020 level then it ramps up to about 80% of 2020 budget by the end of 2021.",
-        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497 -157,995 -73.08% 47,307 81.30%",
+        "citation": "[Page 1] 6105-0000 Parking Income 216,185 58,190 105,497",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -343,8 +343,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -367,7 +367,7 @@
       },
       "gl_code": {
         "value": "6108-0000",
-        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240 -2,188 -8.10% -3,572 -14.40%",
+        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -375,7 +375,7 @@
       },
       "line_item": {
         "value": "Utility Charges",
-        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240 -2,188 -8.10% -3,572 -14.40%",
+        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -383,7 +383,7 @@
       },
       "section": {
         "value": "Other Rental Revenue",
-        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240 -2,188 -8.10% -3,572 -14.40%",
+        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -391,7 +391,7 @@
       },
       "prior_year_budget": {
         "value": 27000,
-        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240 -2,188 -8.10% -3,572 -14.40%",
+        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -399,7 +399,7 @@
       },
       "prior_year_reforecast": {
         "value": 24812,
-        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240 -2,188 -8.10% -3,572 -14.40%",
+        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -407,7 +407,7 @@
       },
       "budget": {
         "value": 21240,
-        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240 -2,188 -8.10% -3,572 -14.40%",
+        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -415,7 +415,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -2188,
-        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240 -2,188 -8.10% -3,572 -14.40%",
+        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -423,7 +423,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -8.1,
-        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240 -2,188 -8.10% -3,572 -14.40%",
+        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -431,7 +431,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -3572,
-        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240 -2,188 -8.10% -3,572 -14.40%",
+        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -439,7 +439,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -14.4,
-        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240 -2,188 -8.10% -3,572 -14.40%",
+        "citation": "[Page 1] 6108-0000 Utility Charges 27,000 24,812 21,240",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -454,8 +454,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -478,7 +478,7 @@
       },
       "gl_code": {
         "value": "6109-0000",
-        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000 -27,691 -55.38% 13,691 61.37%",
+        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -486,7 +486,7 @@
       },
       "line_item": {
         "value": "Tenant Service - Revenue",
-        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000 -27,691 -55.38% 13,691 61.37%",
+        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -494,7 +494,7 @@
       },
       "section": {
         "value": "Other Rental Revenue",
-        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000 -27,691 -55.38% 13,691 61.37%",
+        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -502,7 +502,7 @@
       },
       "prior_year_budget": {
         "value": 50000,
-        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000 -27,691 -55.38% 13,691 61.37%",
+        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -510,7 +510,7 @@
       },
       "prior_year_reforecast": {
         "value": 22309,
-        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000 -27,691 -55.38% 13,691 61.37%",
+        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -518,7 +518,7 @@
       },
       "budget": {
         "value": 36000,
-        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000 -27,691 -55.38% 13,691 61.37%",
+        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -526,7 +526,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -27691,
-        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000 -27,691 -55.38% 13,691 61.37%",
+        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -534,7 +534,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -55.38,
-        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000 -27,691 -55.38% 13,691 61.37%",
+        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -542,7 +542,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 13691,
-        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000 -27,691 -55.38% 13,691 61.37%",
+        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -550,7 +550,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 61.37,
-        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000 -27,691 -55.38% 13,691 61.37%",
+        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -558,7 +558,7 @@
       },
       "explanation_of_variance": {
         "value": "Due to the pandemic and low tenant population in the building, tenant services requests and reimbursements are much less in 2020 compared to budget.",
-        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000 -27,691 -55.38% 13,691 61.37%",
+        "citation": "[Page 1] 6109-0000 Tenant Service - Revenue 50,000 22,309 36,000",
         "confidence": 0.85,
         "page_numbers": [
           1
@@ -568,8 +568,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -592,7 +592,7 @@
       },
       "gl_code": {
         "value": "6110-0000",
-        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0 -16,712 -69.63% -7,288 -100.00%",
+        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -600,7 +600,7 @@
       },
       "line_item": {
         "value": "Interest Income",
-        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0 -16,712 -69.63% -7,288 -100.00%",
+        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -608,7 +608,7 @@
       },
       "section": {
         "value": "Other Rental Revenue",
-        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0 -16,712 -69.63% -7,288 -100.00%",
+        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -616,7 +616,7 @@
       },
       "prior_year_budget": {
         "value": 24000,
-        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0 -16,712 -69.63% -7,288 -100.00%",
+        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -624,7 +624,7 @@
       },
       "prior_year_reforecast": {
         "value": 7288,
-        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0 -16,712 -69.63% -7,288 -100.00%",
+        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -632,7 +632,7 @@
       },
       "budget": {
         "value": 0,
-        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0 -16,712 -69.63% -7,288 -100.00%",
+        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -640,7 +640,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -16712,
-        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0 -16,712 -69.63% -7,288 -100.00%",
+        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -648,7 +648,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -69.63,
-        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0 -16,712 -69.63% -7,288 -100.00%",
+        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -656,7 +656,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -7288,
-        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0 -16,712 -69.63% -7,288 -100.00%",
+        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -664,7 +664,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -100,
-        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0 -16,712 -69.63% -7,288 -100.00%",
+        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -672,7 +672,7 @@
       },
       "explanation_of_variance": {
         "value": "Lower interest income in 2020. No interest income budgeted in 2021 due to low interest rates.",
-        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0 -16,712 -69.63% -7,288 -100.00%",
+        "citation": "[Page 2] 6110-0000 Interest Income 24,000 7,288 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -682,8 +682,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -706,7 +706,7 @@
       },
       "gl_code": {
         "value": "6116-0000",
-        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004 -161 -0.81% 165 0.83%",
+        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -714,7 +714,7 @@
       },
       "line_item": {
         "value": "Other Building Revenues",
-        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004 -161 -0.81% 165 0.83%",
+        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -722,7 +722,7 @@
       },
       "section": {
         "value": "Other Rental Revenue",
-        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004 -161 -0.81% 165 0.83%",
+        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -730,7 +730,7 @@
       },
       "prior_year_budget": {
         "value": 20000,
-        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004 -161 -0.81% 165 0.83%",
+        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -738,7 +738,7 @@
       },
       "prior_year_reforecast": {
         "value": 19839,
-        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004 -161 -0.81% 165 0.83%",
+        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -746,7 +746,7 @@
       },
       "budget": {
         "value": 20004,
-        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004 -161 -0.81% 165 0.83%",
+        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -754,7 +754,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -161,
-        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004 -161 -0.81% 165 0.83%",
+        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -762,7 +762,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -0.81,
-        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004 -161 -0.81% 165 0.83%",
+        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -770,7 +770,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 165,
-        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004 -161 -0.81% 165 0.83%",
+        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -778,7 +778,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 0.83,
-        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004 -161 -0.81% 165 0.83%",
+        "citation": "[Page 2] 6116-0000 Other Building Revenues 20,000 19,839 20,004",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -793,8 +793,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -817,7 +817,7 @@
       },
       "gl_code": {
         "value": "6117-0000",
-        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566 -1,553 -2.54% -90 -0.15%",
+        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -825,7 +825,7 @@
       },
       "line_item": {
         "value": "Storage Income",
-        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566 -1,553 -2.54% -90 -0.15%",
+        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -833,7 +833,7 @@
       },
       "section": {
         "value": "Other Rental Revenue",
-        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566 -1,553 -2.54% -90 -0.15%",
+        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -841,7 +841,7 @@
       },
       "prior_year_budget": {
         "value": 61209,
-        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566 -1,553 -2.54% -90 -0.15%",
+        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -849,7 +849,7 @@
       },
       "prior_year_reforecast": {
         "value": 59656,
-        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566 -1,553 -2.54% -90 -0.15%",
+        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -857,7 +857,7 @@
       },
       "budget": {
         "value": 59566,
-        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566 -1,553 -2.54% -90 -0.15%",
+        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -865,7 +865,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -1553,
-        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566 -1,553 -2.54% -90 -0.15%",
+        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -873,7 +873,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -2.54,
-        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566 -1,553 -2.54% -90 -0.15%",
+        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -881,7 +881,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -90,
-        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566 -1,553 -2.54% -90 -0.15%",
+        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -889,7 +889,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -0.15,
-        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566 -1,553 -2.54% -90 -0.15%",
+        "citation": "[Page 2] 6117-0000 Storage Income 61,209 59,656 59,566",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -904,8 +904,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -928,7 +928,7 @@
       },
       "gl_code": {
         "value": "6120-0000",
-        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0 4,953 N/A -4,953 -100.00%",
+        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -936,7 +936,7 @@
       },
       "line_item": {
         "value": "Miscellaneous Income",
-        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0 4,953 N/A -4,953 -100.00%",
+        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -944,7 +944,7 @@
       },
       "section": {
         "value": "Other Rental Revenue",
-        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0 4,953 N/A -4,953 -100.00%",
+        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -952,7 +952,7 @@
       },
       "prior_year_budget": {
         "value": 0,
-        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0 4,953 N/A -4,953 -100.00%",
+        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -960,7 +960,7 @@
       },
       "prior_year_reforecast": {
         "value": 4953,
-        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0 4,953 N/A -4,953 -100.00%",
+        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -968,7 +968,7 @@
       },
       "budget": {
         "value": 0,
-        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0 4,953 N/A -4,953 -100.00%",
+        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -976,7 +976,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 4953,
-        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0 4,953 N/A -4,953 -100.00%",
+        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -989,7 +989,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -4953,
-        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0 4,953 N/A -4,953 -100.00%",
+        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -997,7 +997,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -100,
-        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0 4,953 N/A -4,953 -100.00%",
+        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1005,7 +1005,7 @@
       },
       "explanation_of_variance": {
         "value": "Supervisory fee income charged in 2020 on Brightpath Group's out-of-pocket tenant improvement project. This income is not projected to continue in 2021.",
-        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0 4,953 N/A -4,953 -100.00%",
+        "citation": "[Page 2] 6120-0000 Miscellaneous Income 0 4,953 0",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1015,8 +1015,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -1039,7 +1039,7 @@
       },
       "gl_code": {
         "value": "6130-0000",
-        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427 11,104 0.46% -173,068 -7.08%",
+        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1047,7 +1047,7 @@
       },
       "line_item": {
         "value": "Operating Expense Escalation",
-        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427 11,104 0.46% -173,068 -7.08%",
+        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1055,7 +1055,7 @@
       },
       "section": {
         "value": "Other Rental Revenue",
-        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427 11,104 0.46% -173,068 -7.08%",
+        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1063,7 +1063,7 @@
       },
       "prior_year_budget": {
         "value": 2432391,
-        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427 11,104 0.46% -173,068 -7.08%",
+        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1071,7 +1071,7 @@
       },
       "prior_year_reforecast": {
         "value": 2443495,
-        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427 11,104 0.46% -173,068 -7.08%",
+        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1079,7 +1079,7 @@
       },
       "budget": {
         "value": 2270427,
-        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427 11,104 0.46% -173,068 -7.08%",
+        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1087,7 +1087,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 11104,
-        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427 11,104 0.46% -173,068 -7.08%",
+        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1095,7 +1095,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 0.46,
-        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427 11,104 0.46% -173,068 -7.08%",
+        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1103,7 +1103,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -173068,
-        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427 11,104 0.46% -173,068 -7.08%",
+        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1111,7 +1111,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -7.08,
-        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427 11,104 0.46% -173,068 -7.08%",
+        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1119,7 +1119,7 @@
       },
       "explanation_of_variance": {
         "value": "Lower occupancy in 2021. The 2021 budget assumes a $138,000 credit back to tenants for the 2020 reconciliations.",
-        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427 11,104 0.46% -173,068 -7.08%",
+        "citation": "[Page 2] 6130-0000 Operating Expense Escalation 2,432,391 2,443,495 2,270,427",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1129,8 +1129,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -1153,7 +1153,7 @@
       },
       "gl_code": {
         "value": "6131-0000",
-        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718 -151,225 -4.52% -75,374 -2.36%",
+        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1161,7 +1161,7 @@
       },
       "line_item": {
         "value": "Real Estate Tax Escalation",
-        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718 -151,225 -4.52% -75,374 -2.36%",
+        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1169,7 +1169,7 @@
       },
       "section": {
         "value": "Other Rental Revenue",
-        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718 -151,225 -4.52% -75,374 -2.36%",
+        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1177,7 +1177,7 @@
       },
       "prior_year_budget": {
         "value": 3343318,
-        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718 -151,225 -4.52% -75,374 -2.36%",
+        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1185,7 +1185,7 @@
       },
       "prior_year_reforecast": {
         "value": 3192093,
-        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718 -151,225 -4.52% -75,374 -2.36%",
+        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1193,7 +1193,7 @@
       },
       "budget": {
         "value": 3116718,
-        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718 -151,225 -4.52% -75,374 -2.36%",
+        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1201,7 +1201,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -151225,
-        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718 -151,225 -4.52% -75,374 -2.36%",
+        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1209,7 +1209,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -4.52,
-        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718 -151,225 -4.52% -75,374 -2.36%",
+        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1217,7 +1217,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -75374,
-        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718 -151,225 -4.52% -75,374 -2.36%",
+        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1225,7 +1225,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -2.36,
-        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718 -151,225 -4.52% -75,374 -2.36%",
+        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1233,7 +1233,7 @@
       },
       "explanation_of_variance": {
         "value": "The 2021 budget assumes an additonal $204,000 recovered from 2020 reconciliations.",
-        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718 -151,225 -4.52% -75,374 -2.36%",
+        "citation": "[Page 2] 6131-0000 Real Estate Tax Escalation 3,343,318 3,192,093 3,116,718",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1243,8 +1243,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -1267,7 +1267,7 @@
       },
       "gl_code": {
         "value": "6132-0000",
-        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114 11,284 7.20% 22,144 13.18%",
+        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1275,7 +1275,7 @@
       },
       "line_item": {
         "value": "Antenna Income",
-        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114 11,284 7.20% 22,144 13.18%",
+        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1283,7 +1283,7 @@
       },
       "section": {
         "value": "Other Rental Revenue",
-        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114 11,284 7.20% 22,144 13.18%",
+        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1291,7 +1291,7 @@
       },
       "prior_year_budget": {
         "value": 156686,
-        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114 11,284 7.20% 22,144 13.18%",
+        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1299,7 +1299,7 @@
       },
       "prior_year_reforecast": {
         "value": 167970,
-        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114 11,284 7.20% 22,144 13.18%",
+        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1307,7 +1307,7 @@
       },
       "budget": {
         "value": 190114,
-        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114 11,284 7.20% 22,144 13.18%",
+        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1315,7 +1315,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 11284,
-        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114 11,284 7.20% 22,144 13.18%",
+        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1323,7 +1323,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 7.2,
-        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114 11,284 7.20% 22,144 13.18%",
+        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1331,7 +1331,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 22144,
-        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114 11,284 7.20% 22,144 13.18%",
+        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1339,7 +1339,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 13.18,
-        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114 11,284 7.20% 22,144 13.18%",
+        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1347,7 +1347,7 @@
       },
       "explanation_of_variance": {
         "value": "Summit Wireless (not previously budgeted in 2020) and Harbor Trade Council impact positively both the 2020 reforcast and the 2021 budget.",
-        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114 11,284 7.20% 22,144 13.18%",
+        "citation": "[Page 2] 6132-0000 Antenna Income 156,686 167,970 190,114",
         "confidence": 0.85,
         "page_numbers": [
           2
@@ -1357,8 +1357,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -1381,7 +1381,7 @@
       },
       "gl_code": {
         "value": "7020-0000",
-        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875 -9,651 -21.45% 4,776 8.74%",
+        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1389,7 +1389,7 @@
       },
       "line_item": {
         "value": "Supplies",
-        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875 -9,651 -21.45% 4,776 8.74%",
+        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1397,7 +1397,7 @@
       },
       "section": {
         "value": "Cleaning Expenses",
-        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875 -9,651 -21.45% 4,776 8.74%",
+        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1405,7 +1405,7 @@
       },
       "prior_year_budget": {
         "value": 45000,
-        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875 -9,651 -21.45% 4,776 8.74%",
+        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1413,7 +1413,7 @@
       },
       "prior_year_reforecast": {
         "value": 54651,
-        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875 -9,651 -21.45% 4,776 8.74%",
+        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1421,7 +1421,7 @@
       },
       "budget": {
         "value": 49875,
-        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875 -9,651 -21.45% 4,776 8.74%",
+        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1429,7 +1429,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -9651,
-        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875 -9,651 -21.45% 4,776 8.74%",
+        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1437,7 +1437,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -21.45,
-        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875 -9,651 -21.45% 4,776 8.74%",
+        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1445,7 +1445,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 4776,
-        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875 -9,651 -21.45% 4,776 8.74%",
+        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1453,7 +1453,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 8.74,
-        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875 -9,651 -21.45% 4,776 8.74%",
+        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1461,7 +1461,7 @@
       },
       "explanation_of_variance": {
         "value": "COVID 19 supplies needed in 2021. The 2021 budget assumes a gradual expense increase starting from the 2020 numbers that are much lower since the tenant population was low and then ramping up to normalized tenant population numbers. In 2020 we had one time expenses such as dispensers, signage, safety items.",
-        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875 -9,651 -21.45% 4,776 8.74%",
+        "citation": "[Page 3] 7020-0000 Supplies 45,000 54,651 49,875",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1471,8 +1471,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -1495,7 +1495,7 @@
       },
       "gl_code": {
         "value": "7040-0000",
-        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784 58,832 12.56% -44,136 -10.77%",
+        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1503,7 +1503,7 @@
       },
       "line_item": {
         "value": "Service Contract",
-        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784 58,832 12.56% -44,136 -10.77%",
+        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1511,7 +1511,7 @@
       },
       "section": {
         "value": "Cleaning Expenses",
-        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784 58,832 12.56% -44,136 -10.77%",
+        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1519,7 +1519,7 @@
       },
       "prior_year_budget": {
         "value": 468480,
-        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784 58,832 12.56% -44,136 -10.77%",
+        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1527,7 +1527,7 @@
       },
       "prior_year_reforecast": {
         "value": 409648,
-        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784 58,832 12.56% -44,136 -10.77%",
+        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1535,7 +1535,7 @@
       },
       "budget": {
         "value": 453784,
-        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784 58,832 12.56% -44,136 -10.77%",
+        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1543,7 +1543,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 58832,
-        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784 58,832 12.56% -44,136 -10.77%",
+        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1551,7 +1551,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 12.56,
-        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784 58,832 12.56% -44,136 -10.77%",
+        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1559,7 +1559,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -44136,
-        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784 58,832 12.56% -44,136 -10.77%",
+        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1567,7 +1567,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -10.77,
-        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784 58,832 12.56% -44,136 -10.77%",
+        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1575,7 +1575,7 @@
       },
       "explanation_of_variance": {
         "value": "Higher vacancy credit in 2020 due to lower building population caused by the pandemic. Higher costs in 2021 since special cleaning protocols are necessary to address Covid-19 and increased tenant population.",
-        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784 58,832 12.56% -44,136 -10.77%",
+        "citation": "[Page 3] 7040-0000 Service Contract 468,480 409,648 453,784",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1585,8 +1585,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -1609,7 +1609,7 @@
       },
       "gl_code": {
         "value": "7042-0000",
-        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482 4,588 28.75% -5,110 -44.93%",
+        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1617,7 +1617,7 @@
       },
       "line_item": {
         "value": "Window Cleaning",
-        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482 4,588 28.75% -5,110 -44.93%",
+        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1625,7 +1625,7 @@
       },
       "section": {
         "value": "Cleaning Expenses",
-        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482 4,588 28.75% -5,110 -44.93%",
+        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1633,7 +1633,7 @@
       },
       "prior_year_budget": {
         "value": 15960,
-        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482 4,588 28.75% -5,110 -44.93%",
+        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1641,7 +1641,7 @@
       },
       "prior_year_reforecast": {
         "value": 11372,
-        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482 4,588 28.75% -5,110 -44.93%",
+        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1649,7 +1649,7 @@
       },
       "budget": {
         "value": 16482,
-        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482 4,588 28.75% -5,110 -44.93%",
+        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1657,7 +1657,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 4588,
-        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482 4,588 28.75% -5,110 -44.93%",
+        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1665,7 +1665,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 28.75,
-        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482 4,588 28.75% -5,110 -44.93%",
+        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1673,7 +1673,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -5110,
-        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482 4,588 28.75% -5,110 -44.93%",
+        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1681,7 +1681,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -44.93,
-        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482 4,588 28.75% -5,110 -44.93%",
+        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1689,7 +1689,7 @@
       },
       "explanation_of_variance": {
         "value": "Anchor certification is now an annual expense. Exterior window cleaning is budgeted to take place twice/year starting in 2021.",
-        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482 4,588 28.75% -5,110 -44.93%",
+        "citation": "[Page 3] 7042-0000 Window Cleaning 15,960 11,372 16,482",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1699,8 +1699,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -1723,7 +1723,7 @@
       },
       "gl_code": {
         "value": "7060-0000",
-        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585 7,376 31.17% -3,301 -20.27%",
+        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1731,7 +1731,7 @@
       },
       "line_item": {
         "value": "Scavenger",
-        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585 7,376 31.17% -3,301 -20.27%",
+        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1739,7 +1739,7 @@
       },
       "section": {
         "value": "Cleaning Expenses",
-        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585 7,376 31.17% -3,301 -20.27%",
+        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1747,7 +1747,7 @@
       },
       "prior_year_budget": {
         "value": 23660,
-        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585 7,376 31.17% -3,301 -20.27%",
+        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1755,7 +1755,7 @@
       },
       "prior_year_reforecast": {
         "value": 16284,
-        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585 7,376 31.17% -3,301 -20.27%",
+        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1763,7 +1763,7 @@
       },
       "budget": {
         "value": 19585,
-        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585 7,376 31.17% -3,301 -20.27%",
+        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1771,7 +1771,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 7376,
-        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585 7,376 31.17% -3,301 -20.27%",
+        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1779,7 +1779,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 31.17,
-        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585 7,376 31.17% -3,301 -20.27%",
+        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1787,7 +1787,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -3301,
-        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585 7,376 31.17% -3,301 -20.27%",
+        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1795,7 +1795,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -20.27,
-        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585 7,376 31.17% -3,301 -20.27%",
+        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1803,7 +1803,7 @@
       },
       "explanation_of_variance": {
         "value": "Due to the pandemic the scavenger cost decreased significantly in 2020 (approximatelly 15% of building population). Annual costs are expected to gradually rise in 2021 as tenants return to the work place.",
-        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585 7,376 31.17% -3,301 -20.27%",
+        "citation": "[Page 3] 7060-0000 Scavenger 23,660 16,284 19,585",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1813,8 +1813,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -1837,7 +1837,7 @@
       },
       "gl_code": {
         "value": "7230-0000",
-        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921 -1,377 -0.28% -1,010 -0.21%",
+        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1845,7 +1845,7 @@
       },
       "line_item": {
         "value": "Electricity Expense",
-        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921 -1,377 -0.28% -1,010 -0.21%",
+        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1853,7 +1853,7 @@
       },
       "section": {
         "value": "HVAC Expenses",
-        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921 -1,377 -0.28% -1,010 -0.21%",
+        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1861,7 +1861,7 @@
       },
       "prior_year_budget": {
         "value": 485535,
-        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921 -1,377 -0.28% -1,010 -0.21%",
+        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1869,7 +1869,7 @@
       },
       "prior_year_reforecast": {
         "value": 486911,
-        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921 -1,377 -0.28% -1,010 -0.21%",
+        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1877,7 +1877,7 @@
       },
       "budget": {
         "value": 487921,
-        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921 -1,377 -0.28% -1,010 -0.21%",
+        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1885,7 +1885,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -1377,
-        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921 -1,377 -0.28% -1,010 -0.21%",
+        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1893,7 +1893,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -0.28,
-        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921 -1,377 -0.28% -1,010 -0.21%",
+        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1901,7 +1901,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -1010,
-        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921 -1,377 -0.28% -1,010 -0.21%",
+        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1909,7 +1909,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -0.21,
-        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921 -1,377 -0.28% -1,010 -0.21%",
+        "citation": "[Page 3] 7230-0000 Electricity Expense 485,535 486,911 487,921",
         "confidence": 0.85,
         "page_numbers": [
           3
@@ -1924,8 +1924,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -1948,7 +1948,7 @@
       },
       "gl_code": {
         "value": "7232-0000",
-        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505 218 0.16% -406 -0.30%",
+        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -1956,7 +1956,7 @@
       },
       "line_item": {
         "value": "Gas",
-        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505 218 0.16% -406 -0.30%",
+        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -1964,7 +1964,7 @@
       },
       "section": {
         "value": "HVAC Expenses",
-        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505 218 0.16% -406 -0.30%",
+        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -1972,7 +1972,7 @@
       },
       "prior_year_budget": {
         "value": 137317,
-        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505 218 0.16% -406 -0.30%",
+        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -1980,7 +1980,7 @@
       },
       "prior_year_reforecast": {
         "value": 137099,
-        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505 218 0.16% -406 -0.30%",
+        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -1988,7 +1988,7 @@
       },
       "budget": {
         "value": 137505,
-        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505 218 0.16% -406 -0.30%",
+        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -1996,7 +1996,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 218,
-        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505 218 0.16% -406 -0.30%",
+        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2004,7 +2004,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 0.16,
-        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505 218 0.16% -406 -0.30%",
+        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2012,7 +2012,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -406,
-        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505 218 0.16% -406 -0.30%",
+        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2020,7 +2020,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -0.3,
-        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505 218 0.16% -406 -0.30%",
+        "citation": "[Page 4] 7232-0000 Gas 137,317 137,099 137,505",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2035,8 +2035,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -2059,7 +2059,7 @@
       },
       "gl_code": {
         "value": "7236-0000",
-        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413 19,196 33.77% -11,773 -31.28%",
+        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2067,7 +2067,7 @@
       },
       "line_item": {
         "value": "Water",
-        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413 19,196 33.77% -11,773 -31.28%",
+        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2075,7 +2075,7 @@
       },
       "section": {
         "value": "HVAC Expenses",
-        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413 19,196 33.77% -11,773 -31.28%",
+        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2083,7 +2083,7 @@
       },
       "prior_year_budget": {
         "value": 56836,
-        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413 19,196 33.77% -11,773 -31.28%",
+        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2091,7 +2091,7 @@
       },
       "prior_year_reforecast": {
         "value": 37640,
-        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413 19,196 33.77% -11,773 -31.28%",
+        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2099,7 +2099,7 @@
       },
       "budget": {
         "value": 49413,
-        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413 19,196 33.77% -11,773 -31.28%",
+        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2107,7 +2107,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 19196,
-        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413 19,196 33.77% -11,773 -31.28%",
+        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2115,7 +2115,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 33.77,
-        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413 19,196 33.77% -11,773 -31.28%",
+        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2123,7 +2123,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -11773,
-        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413 19,196 33.77% -11,773 -31.28%",
+        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2131,7 +2131,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -31.28,
-        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413 19,196 33.77% -11,773 -31.28%",
+        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2139,7 +2139,7 @@
       },
       "explanation_of_variance": {
         "value": "Due to the pandemic and about 15% of tenants in the building, the water usage in 2020 was lower. Annual total cost is expected to gradually increase in 2021 as tenants return to the building.",
-        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413 19,196 33.77% -11,773 -31.28%",
+        "citation": "[Page 4] 7236-0000 Water 56,836 37,640 49,413",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2149,8 +2149,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -2173,7 +2173,7 @@
       },
       "gl_code": {
         "value": "7240-0000",
-        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360 2,530 3.62% 2,010 2.98%",
+        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2181,7 +2181,7 @@
       },
       "line_item": {
         "value": "HVAC Service Contract",
-        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360 2,530 3.62% 2,010 2.98%",
+        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2189,7 +2189,7 @@
       },
       "section": {
         "value": "HVAC Expenses",
-        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360 2,530 3.62% 2,010 2.98%",
+        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2197,7 +2197,7 @@
       },
       "prior_year_budget": {
         "value": 69900,
-        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360 2,530 3.62% 2,010 2.98%",
+        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2205,7 +2205,7 @@
       },
       "prior_year_reforecast": {
         "value": 67370,
-        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360 2,530 3.62% 2,010 2.98%",
+        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2213,7 +2213,7 @@
       },
       "budget": {
         "value": 65360,
-        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360 2,530 3.62% 2,010 2.98%",
+        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2221,7 +2221,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 2530,
-        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360 2,530 3.62% 2,010 2.98%",
+        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2229,7 +2229,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 3.62,
-        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360 2,530 3.62% 2,010 2.98%",
+        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2237,7 +2237,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 2010,
-        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360 2,530 3.62% 2,010 2.98%",
+        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2245,7 +2245,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 2.98,
-        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360 2,530 3.62% 2,010 2.98%",
+        "citation": "[Page 4] 7240-0000 HVAC Service Contract 69,900 67,370 65,360",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2260,8 +2260,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -2374,8 +2374,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -2398,7 +2398,7 @@
       },
       "gl_code": {
         "value": "7450-0000",
-        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62% 11,948 15.82%",
+        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2406,7 +2406,7 @@
       },
       "line_item": {
         "value": "Elevator Contracts",
-        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62% 11,948 15.82%",
+        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2414,7 +2414,7 @@
       },
       "section": {
         "value": "Elevator Expenses",
-        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62% 11,948 15.82%",
+        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2422,7 +2422,7 @@
       },
       "prior_year_budget": {
         "value": 86448,
-        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62% 11,948 15.82%",
+        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2430,7 +2430,7 @@
       },
       "prior_year_reforecast": {
         "value": 75536,
-        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62% 11,948 15.82%",
+        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2438,7 +2438,7 @@
       },
       "budget": {
         "value": 63588,
-        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62% 11,948 15.82%",
+        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2446,7 +2446,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 10912,
-        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62% 11,948 15.82%",
+        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2454,7 +2454,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 12.62,
-        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62% 11,948 15.82%",
+        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2462,7 +2462,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 11948,
-        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62% 11,948 15.82%",
+        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2470,7 +2470,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 15.82,
-        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62% 11,948 15.82%",
+        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2478,7 +2478,7 @@
       },
       "explanation_of_variance": {
         "value": "New contract budgeted to commence on May 1, 2020 results in lower monthly maintenance fees. Contract price is increased by 3% on anniversary date.",
-        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62% 11,948 15.82%",
+        "citation": "[Page 4] 7450-0000 Elevator Contracts 86,448 75,536 63,588 10,912 12.62%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2488,8 +2488,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -2512,7 +2512,7 @@
       },
       "gl_code": {
         "value": "7455-0000",
-        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94% -1,500 -19.48%",
+        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2520,7 +2520,7 @@
       },
       "line_item": {
         "value": "Elevator R&M",
-        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94% -1,500 -19.48%",
+        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2528,7 +2528,7 @@
       },
       "section": {
         "value": "Elevator Expenses",
-        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94% -1,500 -19.48%",
+        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2536,7 +2536,7 @@
       },
       "prior_year_budget": {
         "value": 7200,
-        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94% -1,500 -19.48%",
+        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2544,7 +2544,7 @@
       },
       "prior_year_reforecast": {
         "value": 7700,
-        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94% -1,500 -19.48%",
+        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2552,7 +2552,7 @@
       },
       "budget": {
         "value": 9200,
-        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94% -1,500 -19.48%",
+        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2560,7 +2560,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -500,
-        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94% -1,500 -19.48%",
+        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2568,7 +2568,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -6.94,
-        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94% -1,500 -19.48%",
+        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2576,7 +2576,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -1500,
-        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94% -1,500 -19.48%",
+        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2584,7 +2584,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -19.48,
-        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94% -1,500 -19.48%",
+        "citation": "[Page 4] 7455-0000 Elevator R&M 7,200 7,700 9,200 -500 -6.94%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2599,8 +2599,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -2623,7 +2623,7 @@
       },
       "gl_code": {
         "value": "7530-0000",
-        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52% -266 -0.75%",
+        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2631,7 +2631,7 @@
       },
       "line_item": {
         "value": "Landscaping",
-        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52% -266 -0.75%",
+        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2639,7 +2639,7 @@
       },
       "section": {
         "value": "Landscaping Expenses",
-        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52% -266 -0.75%",
+        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2647,7 +2647,7 @@
       },
       "prior_year_budget": {
         "value": 35024,
-        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52% -266 -0.75%",
+        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2655,7 +2655,7 @@
       },
       "prior_year_reforecast": {
         "value": 35558,
-        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52% -266 -0.75%",
+        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2663,7 +2663,7 @@
       },
       "budget": {
         "value": 35824,
-        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52% -266 -0.75%",
+        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2671,7 +2671,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -534,
-        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52% -266 -0.75%",
+        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2679,7 +2679,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -1.52,
-        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52% -266 -0.75%",
+        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2687,7 +2687,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -266,
-        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52% -266 -0.75%",
+        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2695,7 +2695,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -0.75,
-        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52% -266 -0.75%",
+        "citation": "[Page 4] 7530-0000 Landscaping 35,024 35,558 35,824 -534 -1.52%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2710,8 +2710,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -2734,7 +2734,7 @@
       },
       "gl_code": {
         "value": "7531-0000",
-        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83% -389 -1.31%",
+        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2742,7 +2742,7 @@
       },
       "line_item": {
         "value": "Snow Removal",
-        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83% -389 -1.31%",
+        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2750,7 +2750,7 @@
       },
       "section": {
         "value": "Landscaping Expenses",
-        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83% -389 -1.31%",
+        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2758,7 +2758,7 @@
       },
       "prior_year_budget": {
         "value": 29350,
-        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83% -389 -1.31%",
+        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2766,7 +2766,7 @@
       },
       "prior_year_reforecast": {
         "value": 29593,
-        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83% -389 -1.31%",
+        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2774,7 +2774,7 @@
       },
       "budget": {
         "value": 29982,
-        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83% -389 -1.31%",
+        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2782,7 +2782,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -243,
-        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83% -389 -1.31%",
+        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2790,7 +2790,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -0.83,
-        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83% -389 -1.31%",
+        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2798,7 +2798,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -389,
-        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83% -389 -1.31%",
+        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2806,7 +2806,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -1.31,
-        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83% -389 -1.31%",
+        "citation": "[Page 4] 7531-0000 Snow Removal 29,350 29,593 29,982 -243 -0.83%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2821,8 +2821,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -2845,7 +2845,7 @@
       },
       "gl_code": {
         "value": "7610-0000",
-        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16% -20,672 -4.40%",
+        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2853,7 +2853,7 @@
       },
       "line_item": {
         "value": "General Bldg Payroll",
-        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16% -20,672 -4.40%",
+        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2861,7 +2861,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16% -20,672 -4.40%",
+        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2869,7 +2869,7 @@
       },
       "prior_year_budget": {
         "value": 485495,
-        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16% -20,672 -4.40%",
+        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2877,7 +2877,7 @@
       },
       "prior_year_reforecast": {
         "value": 470152,
-        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16% -20,672 -4.40%",
+        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2885,7 +2885,7 @@
       },
       "budget": {
         "value": 490824,
-        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16% -20,672 -4.40%",
+        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2893,7 +2893,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 15343,
-        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16% -20,672 -4.40%",
+        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2901,7 +2901,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 3.16,
-        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16% -20,672 -4.40%",
+        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2909,7 +2909,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -20672,
-        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16% -20,672 -4.40%",
+        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2917,7 +2917,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -4.4,
-        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16% -20,672 -4.40%",
+        "citation": "[Page 4] 7610-0000 General Bldg Payroll 485,495 470,152 490,824 15,343 3.16%",
         "confidence": 0.85,
         "page_numbers": [
           4
@@ -2932,8 +2932,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -2956,7 +2956,7 @@
       },
       "gl_code": {
         "value": "7620-0000",
-        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38% -6 -0.01%",
+        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -2964,7 +2964,7 @@
       },
       "line_item": {
         "value": "Supplies",
-        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38% -6 -0.01%",
+        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -2972,7 +2972,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38% -6 -0.01%",
+        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -2980,7 +2980,7 @@
       },
       "prior_year_budget": {
         "value": 34400,
-        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38% -6 -0.01%",
+        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -2988,7 +2988,7 @@
       },
       "prior_year_reforecast": {
         "value": 45194,
-        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38% -6 -0.01%",
+        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -2996,7 +2996,7 @@
       },
       "budget": {
         "value": 45200,
-        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38% -6 -0.01%",
+        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3004,7 +3004,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -10794,
-        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38% -6 -0.01%",
+        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3012,7 +3012,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -31.38,
-        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38% -6 -0.01%",
+        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3020,7 +3020,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -6,
-        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38% -6 -0.01%",
+        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3028,7 +3028,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -0.01,
-        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38% -6 -0.01%",
+        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3036,7 +3036,7 @@
       },
       "explanation_of_variance": {
         "value": "Plumbing, lights, HVAC supplies needed for frequent replacements due to the age of the existing equipment. Purchase gantry for $5,000 in 2021.",
-        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38% -6 -0.01%",
+        "citation": "[Page 5] 7620-0000 Supplies 34,400 45,194 45,200 -10,794 -31.38%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3046,8 +3046,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -3070,7 +3070,7 @@
       },
       "gl_code": {
         "value": "7625-0000",
-        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70% -178 -5.20%",
+        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3078,7 +3078,7 @@
       },
       "line_item": {
         "value": "Uniforms",
-        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70% -178 -5.20%",
+        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3086,7 +3086,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70% -178 -5.20%",
+        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3094,7 +3094,7 @@
       },
       "prior_year_budget": {
         "value": 3300,
-        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70% -178 -5.20%",
+        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3102,7 +3102,7 @@
       },
       "prior_year_reforecast": {
         "value": 3422,
-        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70% -178 -5.20%",
+        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3110,7 +3110,7 @@
       },
       "budget": {
         "value": 3600,
-        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70% -178 -5.20%",
+        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3118,7 +3118,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -122,
-        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70% -178 -5.20%",
+        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3126,7 +3126,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -3.7,
-        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70% -178 -5.20%",
+        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3134,7 +3134,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -178,
-        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70% -178 -5.20%",
+        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3142,7 +3142,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -5.2,
-        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70% -178 -5.20%",
+        "citation": "[Page 5] 7625-0000 Uniforms 3,300 3,422 3,600 -122 -3.70%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3157,8 +3157,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -3181,7 +3181,7 @@
       },
       "gl_code": {
         "value": "7640-0000",
-        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90% -29,169 -11.41%",
+        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3189,7 +3189,7 @@
       },
       "line_item": {
         "value": "Security",
-        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90% -29,169 -11.41%",
+        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3197,7 +3197,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90% -29,169 -11.41%",
+        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3205,7 +3205,7 @@
       },
       "prior_year_budget": {
         "value": 268762,
-        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90% -29,169 -11.41%",
+        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3213,7 +3213,7 @@
       },
       "prior_year_reforecast": {
         "value": 255584,
-        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90% -29,169 -11.41%",
+        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3221,7 +3221,7 @@
       },
       "budget": {
         "value": 284752,
-        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90% -29,169 -11.41%",
+        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3229,7 +3229,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 13178,
-        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90% -29,169 -11.41%",
+        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3237,7 +3237,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 4.9,
-        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90% -29,169 -11.41%",
+        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3245,7 +3245,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -29169,
-        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90% -29,169 -11.41%",
+        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3253,7 +3253,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -11.41,
-        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90% -29,169 -11.41%",
+        "citation": "[Page 5] 7640-0000 Security 268,762 255,584 284,752 13,178 4.90%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3268,8 +3268,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -3292,7 +3292,7 @@
       },
       "gl_code": {
         "value": "7641-0000",
-        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69% 45,596 43.05%",
+        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3300,7 +3300,7 @@
       },
       "line_item": {
         "value": "Fire and Life Safety",
-        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69% 45,596 43.05%",
+        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3308,7 +3308,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69% 45,596 43.05%",
+        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3316,7 +3316,7 @@
       },
       "prior_year_budget": {
         "value": 40940,
-        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69% 45,596 43.05%",
+        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3324,7 +3324,7 @@
       },
       "prior_year_reforecast": {
         "value": 105906,
-        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69% 45,596 43.05%",
+        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3332,7 +3332,7 @@
       },
       "budget": {
         "value": 60310,
-        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69% 45,596 43.05%",
+        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3340,7 +3340,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -64966,
-        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69% 45,596 43.05%",
+        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3348,7 +3348,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -158.69,
-        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69% 45,596 43.05%",
+        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3356,7 +3356,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 45596,
-        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69% 45,596 43.05%",
+        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3364,7 +3364,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 43.05,
-        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69% 45,596 43.05%",
+        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3372,7 +3372,7 @@
       },
       "explanation_of_variance": {
         "value": "Variance between 2020 budget and 2021 budget is caused by the following expenses: virtual fire drill, Datawatch monthly monitoring, radio and camera replacement. In the 2020 reforcast the numbers are high due to the one-time Datawatch installation that involved converting the video system to a digital platform, electrical work needed for the new system to become operational, installation of a gate in stairwell #2 and Otis cost to integrate the system. Ownership also approved the installation of the no-touch phase 1 system of Datawatch that involved Otis cost (labor and boards) and Datawatch expense.",
-        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69% 45,596 43.05%",
+        "citation": "[Page 5] 7641-0000 Fire and Life Safety 40,940 105,906 60,310 -64,966 -158.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3382,8 +3382,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -3406,7 +3406,7 @@
       },
       "gl_code": {
         "value": "7644-0000",
-        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80% 2,790 35.82%",
+        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3414,7 +3414,7 @@
       },
       "line_item": {
         "value": "Painting and Decorating",
-        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80% 2,790 35.82%",
+        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3422,7 +3422,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80% 2,790 35.82%",
+        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3430,7 +3430,7 @@
       },
       "prior_year_budget": {
         "value": 5000,
-        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80% 2,790 35.82%",
+        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3438,7 +3438,7 @@
       },
       "prior_year_reforecast": {
         "value": 7790,
-        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80% 2,790 35.82%",
+        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3446,7 +3446,7 @@
       },
       "budget": {
         "value": 5000,
-        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80% 2,790 35.82%",
+        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3454,7 +3454,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -2790,
-        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80% 2,790 35.82%",
+        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3462,7 +3462,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -55.8,
-        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80% 2,790 35.82%",
+        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3470,7 +3470,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 2790,
-        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80% 2,790 35.82%",
+        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3478,7 +3478,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 35.82,
-        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80% 2,790 35.82%",
+        "citation": "[Page 5] 7644-0000 Painting and Decorating 5,000 7,790 5,000 -2,790 -55.80%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3493,8 +3493,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -3517,7 +3517,7 @@
       },
       "gl_code": {
         "value": "7645-0000",
-        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14% -2,012 -75.02%",
+        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3525,7 +3525,7 @@
       },
       "line_item": {
         "value": "Exterminating",
-        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14% -2,012 -75.02%",
+        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3533,7 +3533,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14% -2,012 -75.02%",
+        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3541,7 +3541,7 @@
       },
       "prior_year_budget": {
         "value": 4200,
-        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14% -2,012 -75.02%",
+        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3549,7 +3549,7 @@
       },
       "prior_year_reforecast": {
         "value": 2682,
-        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14% -2,012 -75.02%",
+        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3557,7 +3557,7 @@
       },
       "budget": {
         "value": 4694,
-        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14% -2,012 -75.02%",
+        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3565,7 +3565,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 1518,
-        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14% -2,012 -75.02%",
+        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3573,7 +3573,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 36.14,
-        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14% -2,012 -75.02%",
+        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3581,7 +3581,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -2012,
-        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14% -2,012 -75.02%",
+        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3589,7 +3589,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -75.02,
-        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14% -2,012 -75.02%",
+        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3597,7 +3597,7 @@
       },
       "explanation_of_variance": {
         "value": "Increased rodent control and roof top spider control.",
-        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14% -2,012 -75.02%",
+        "citation": "[Page 5] 7645-0000 Exterminating 4,200 2,682 4,694 1,518 36.14%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3607,8 +3607,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -3631,7 +3631,7 @@
       },
       "gl_code": {
         "value": "7646-0000",
-        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69% -57 -0.28%",
+        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3639,7 +3639,7 @@
       },
       "line_item": {
         "value": "Metal Maintenance",
-        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69% -57 -0.28%",
+        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3647,7 +3647,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69% -57 -0.28%",
+        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3655,7 +3655,7 @@
       },
       "prior_year_budget": {
         "value": 20724,
-        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69% -57 -0.28%",
+        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3663,7 +3663,7 @@
       },
       "prior_year_reforecast": {
         "value": 20167,
-        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69% -57 -0.28%",
+        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3671,7 +3671,7 @@
       },
       "budget": {
         "value": 20224,
-        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69% -57 -0.28%",
+        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3679,7 +3679,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 557,
-        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69% -57 -0.28%",
+        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3687,7 +3687,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 2.69,
-        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69% -57 -0.28%",
+        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3695,7 +3695,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -57,
-        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69% -57 -0.28%",
+        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3703,7 +3703,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -0.28,
-        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69% -57 -0.28%",
+        "citation": "[Page 5] 7646-0000 Metal Maintenance 20,724 20,167 20,224 557 2.69%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3718,8 +3718,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -3742,7 +3742,7 @@
       },
       "gl_code": {
         "value": "7647-0000",
-        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27% -824 -18.01%",
+        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3750,7 +3750,7 @@
       },
       "line_item": {
         "value": "Interior Plants",
-        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27% -824 -18.01%",
+        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3758,7 +3758,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27% -824 -18.01%",
+        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3766,7 +3766,7 @@
       },
       "prior_year_budget": {
         "value": 5100,
-        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27% -824 -18.01%",
+        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3774,7 +3774,7 @@
       },
       "prior_year_reforecast": {
         "value": 4576,
-        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27% -824 -18.01%",
+        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3782,7 +3782,7 @@
       },
       "budget": {
         "value": 5400,
-        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27% -824 -18.01%",
+        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3790,7 +3790,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 524,
-        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27% -824 -18.01%",
+        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3798,7 +3798,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 10.27,
-        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27% -824 -18.01%",
+        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3806,7 +3806,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -824,
-        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27% -824 -18.01%",
+        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3814,7 +3814,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -18.01,
-        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27% -824 -18.01%",
+        "citation": "[Page 5] 7647-0000 Interior Plants 5,100 4,576 5,400 524 10.27%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3829,8 +3829,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -3853,7 +3853,7 @@
       },
       "gl_code": {
         "value": "7648-0000",
-        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21% 600 6.59%",
+        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3861,7 +3861,7 @@
       },
       "line_item": {
         "value": "Electrical Maintenance",
-        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21% 600 6.59%",
+        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3869,7 +3869,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21% 600 6.59%",
+        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3877,7 +3877,7 @@
       },
       "prior_year_budget": {
         "value": 9500,
-        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21% 600 6.59%",
+        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3885,7 +3885,7 @@
       },
       "prior_year_reforecast": {
         "value": 9100,
-        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21% 600 6.59%",
+        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3893,7 +3893,7 @@
       },
       "budget": {
         "value": 8500,
-        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21% 600 6.59%",
+        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3901,7 +3901,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 400,
-        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21% 600 6.59%",
+        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3909,7 +3909,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 4.21,
-        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21% 600 6.59%",
+        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3917,7 +3917,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 600,
-        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21% 600 6.59%",
+        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3925,7 +3925,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 6.59,
-        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21% 600 6.59%",
+        "citation": "[Page 5] 7648-0000 Electrical Maintenance 9,500 9,100 8,500 400 4.21%",
         "confidence": 0.85,
         "page_numbers": [
           5
@@ -3940,8 +3940,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -3964,7 +3964,7 @@
       },
       "gl_code": {
         "value": "7650-0000",
-        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22% 19,541 13.29%",
+        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -3972,7 +3972,7 @@
       },
       "line_item": {
         "value": "Repairs and Maintenance",
-        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22% 19,541 13.29%",
+        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -3980,7 +3980,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22% 19,541 13.29%",
+        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -3988,7 +3988,7 @@
       },
       "prior_year_budget": {
         "value": 59000,
-        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22% 19,541 13.29%",
+        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -3996,7 +3996,7 @@
       },
       "prior_year_reforecast": {
         "value": 147041,
-        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22% 19,541 13.29%",
+        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4004,7 +4004,7 @@
       },
       "budget": {
         "value": 127500,
-        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22% 19,541 13.29%",
+        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4012,7 +4012,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -88041,
-        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22% 19,541 13.29%",
+        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4020,7 +4020,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -149.22,
-        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22% 19,541 13.29%",
+        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4028,7 +4028,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 19541,
-        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22% 19,541 13.29%",
+        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4036,7 +4036,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 13.29,
-        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22% 19,541 13.29%",
+        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4044,7 +4044,7 @@
       },
       "explanation_of_variance": {
         "value": "The 2020 refocast number has $75k to replace the lobby pipe, $40k for boiler #4 repair and $7500 for Wellnest building certification. These are costs that were not budgeted. In 2021 the budget assumes masonery and dampers replacement at $25k each project, Elara master plan $12,500 and $35k for basement clean up from leaks (make safe) in addition to other recurring expenses.",
-        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22% 19,541 13.29%",
+        "citation": "[Page 6] 7650-0000 Repairs and Maintenance 59,000 147,041 127,500 -88,041 -149.22%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4054,8 +4054,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -4078,7 +4078,7 @@
       },
       "gl_code": {
         "value": "7651-0000",
-        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93% 2,068 7.64%",
+        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4086,7 +4086,7 @@
       },
       "line_item": {
         "value": "Plumbing",
-        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93% 2,068 7.64%",
+        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4094,7 +4094,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93% 2,068 7.64%",
+        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4102,7 +4102,7 @@
       },
       "prior_year_budget": {
         "value": 51000,
-        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93% 2,068 7.64%",
+        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4110,7 +4110,7 @@
       },
       "prior_year_reforecast": {
         "value": 27068,
-        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93% 2,068 7.64%",
+        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4118,7 +4118,7 @@
       },
       "budget": {
         "value": 25000,
-        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93% 2,068 7.64%",
+        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4126,7 +4126,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 23932,
-        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93% 2,068 7.64%",
+        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4134,7 +4134,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 46.93,
-        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93% 2,068 7.64%",
+        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4142,7 +4142,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 2068,
-        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93% 2,068 7.64%",
+        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4150,7 +4150,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 7.64,
-        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93% 2,068 7.64%",
+        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4158,7 +4158,7 @@
       },
       "explanation_of_variance": {
         "value": "The 2020 reforcast is lower since we are not projecting to spend the $25k to replace the 2nd domestic water pump in 2020. The replacement of #2 and #3 pumps is recommended to be done together in 2022 as a capital cost.",
-        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93% 2,068 7.64%",
+        "citation": "[Page 6] 7651-0000 Plumbing 51,000 27,068 25,000 23,932 46.93%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4168,8 +4168,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -4192,7 +4192,7 @@
       },
       "gl_code": {
         "value": "7652-0000",
-        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35% 388 9.42%",
+        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4200,7 +4200,7 @@
       },
       "line_item": {
         "value": "RM Roof",
-        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35% 388 9.42%",
+        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4208,7 +4208,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35% 388 9.42%",
+        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4216,7 +4216,7 @@
       },
       "prior_year_budget": {
         "value": 3700,
-        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35% 388 9.42%",
+        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4224,7 +4224,7 @@
       },
       "prior_year_reforecast": {
         "value": 4120,
-        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35% 388 9.42%",
+        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4232,7 +4232,7 @@
       },
       "budget": {
         "value": 3732,
-        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35% 388 9.42%",
+        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4240,7 +4240,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -420,
-        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35% 388 9.42%",
+        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4248,7 +4248,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -11.35,
-        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35% 388 9.42%",
+        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4256,7 +4256,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 388,
-        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35% 388 9.42%",
+        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4264,7 +4264,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 9.42,
-        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35% 388 9.42%",
+        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4272,7 +4272,7 @@
       },
       "explanation_of_variance": {
         "value": "A roof consultant fee is budgeted in 2021 to assess the condition of the roofs and estimated remaining useful life.",
-        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35% 388 9.42%",
+        "citation": "[Page 6] 7652-0000 RM Roof 3,700 4,120 3,732 -420 -11.35%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4282,8 +4282,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -4306,7 +4306,7 @@
       },
       "gl_code": {
         "value": "7660-0000",
-        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32% -1,528 -5.26%",
+        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4314,7 +4314,7 @@
       },
       "line_item": {
         "value": "Tenant Services",
-        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32% -1,528 -5.26%",
+        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4322,7 +4322,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32% -1,528 -5.26%",
+        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4330,7 +4330,7 @@
       },
       "prior_year_budget": {
         "value": 40000,
-        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32% -1,528 -5.26%",
+        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4338,7 +4338,7 @@
       },
       "prior_year_reforecast": {
         "value": 29072,
-        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32% -1,528 -5.26%",
+        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4346,7 +4346,7 @@
       },
       "budget": {
         "value": 30600,
-        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32% -1,528 -5.26%",
+        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4354,7 +4354,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 10928,
-        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32% -1,528 -5.26%",
+        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4362,7 +4362,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 27.32,
-        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32% -1,528 -5.26%",
+        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4370,7 +4370,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -1528,
-        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32% -1,528 -5.26%",
+        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4378,7 +4378,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -5.26,
-        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32% -1,528 -5.26%",
+        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4386,7 +4386,7 @@
       },
       "explanation_of_variance": {
         "value": "Due to the pandemic the 2020 reforcast shows lower tenant services requests. These numbers are expected to rise in 2021 with building population returning to the workplace.",
-        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32% -1,528 -5.26%",
+        "citation": "[Page 6] 7660-0000 Tenant Services 40,000 29,072 30,600 10,928 27.32%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4396,8 +4396,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -4420,7 +4420,7 @@
       },
       "gl_code": {
         "value": "7670-0000",
-        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05% 461 18.73%",
+        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4428,7 +4428,7 @@
       },
       "line_item": {
         "value": "Building Directory/Signs",
-        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05% 461 18.73%",
+        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4436,7 +4436,7 @@
       },
       "section": {
         "value": "General Building Expenses",
-        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05% 461 18.73%",
+        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4444,7 +4444,7 @@
       },
       "prior_year_budget": {
         "value": 2000,
-        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05% 461 18.73%",
+        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4452,7 +4452,7 @@
       },
       "prior_year_reforecast": {
         "value": 2461,
-        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05% 461 18.73%",
+        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4460,7 +4460,7 @@
       },
       "budget": {
         "value": 2000,
-        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05% 461 18.73%",
+        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4468,7 +4468,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -461,
-        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05% 461 18.73%",
+        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4476,7 +4476,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -23.05,
-        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05% 461 18.73%",
+        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4484,7 +4484,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 461,
-        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05% 461 18.73%",
+        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4492,7 +4492,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 18.73,
-        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05% 461 18.73%",
+        "citation": "[Page 6] 7670-0000 Building Directory/Signs 2,000 2,461 2,000 -461 -23.05%",
         "confidence": 0.85,
         "page_numbers": [
           6
@@ -4507,8 +4507,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -4531,7 +4531,7 @@
       },
       "gl_code": {
         "value": "7810-0000",
-        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49% -4,724 -2.27%",
+        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4539,7 +4539,7 @@
       },
       "line_item": {
         "value": "Payroll and Related",
-        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49% -4,724 -2.27%",
+        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4547,7 +4547,7 @@
       },
       "section": {
         "value": "General & Administrative",
-        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49% -4,724 -2.27%",
+        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4555,7 +4555,7 @@
       },
       "prior_year_budget": {
         "value": 207445,
-        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49% -4,724 -2.27%",
+        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4563,7 +4563,7 @@
       },
       "prior_year_reforecast": {
         "value": 208461,
-        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49% -4,724 -2.27%",
+        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4571,7 +4571,7 @@
       },
       "budget": {
         "value": 213185,
-        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49% -4,724 -2.27%",
+        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4579,7 +4579,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -1016,
-        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49% -4,724 -2.27%",
+        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4587,7 +4587,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -0.49,
-        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49% -4,724 -2.27%",
+        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4595,7 +4595,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -4724,
-        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49% -4,724 -2.27%",
+        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4603,7 +4603,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -2.27,
-        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49% -4,724 -2.27%",
+        "citation": "[Page 7] 7810-0000 Payroll and Related 207,445 208,461 213,185 -1,016 -0.49%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4618,8 +4618,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -4642,7 +4642,7 @@
       },
       "gl_code": {
         "value": "7850-0000",
-        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55% -18,112 -5.01%",
+        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4650,7 +4650,7 @@
       },
       "line_item": {
         "value": "Management Fees",
-        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55% -18,112 -5.01%",
+        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4658,7 +4658,7 @@
       },
       "section": {
         "value": "General & Administrative",
-        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55% -18,112 -5.01%",
+        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4666,7 +4666,7 @@
       },
       "prior_year_budget": {
         "value": 399758,
-        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55% -18,112 -5.01%",
+        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4674,7 +4674,7 @@
       },
       "prior_year_reforecast": {
         "value": 361587,
-        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55% -18,112 -5.01%",
+        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4682,7 +4682,7 @@
       },
       "budget": {
         "value": 379699,
-        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55% -18,112 -5.01%",
+        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4690,7 +4690,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 38171,
-        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55% -18,112 -5.01%",
+        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4698,7 +4698,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 9.55,
-        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55% -18,112 -5.01%",
+        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4706,7 +4706,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -18112,
-        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55% -18,112 -5.01%",
+        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4714,7 +4714,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -5.01,
-        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55% -18,112 -5.01%",
+        "citation": "[Page 7] 7850-0000 Management Fees 399,758 361,587 379,699 38,171 9.55%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4729,8 +4729,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -4753,7 +4753,7 @@
       },
       "gl_code": {
         "value": "7855-0000",
-        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90% 4,922 12.09%",
+        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4761,7 +4761,7 @@
       },
       "line_item": {
         "value": "Building Office Expenses",
-        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90% 4,922 12.09%",
+        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4769,7 +4769,7 @@
       },
       "section": {
         "value": "General & Administrative",
-        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90% 4,922 12.09%",
+        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4777,7 +4777,7 @@
       },
       "prior_year_budget": {
         "value": 31820,
-        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90% 4,922 12.09%",
+        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4785,7 +4785,7 @@
       },
       "prior_year_reforecast": {
         "value": 40697,
-        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90% 4,922 12.09%",
+        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4793,7 +4793,7 @@
       },
       "budget": {
         "value": 35775,
-        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90% 4,922 12.09%",
+        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4801,7 +4801,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -8877,
-        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90% 4,922 12.09%",
+        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4809,7 +4809,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -27.9,
-        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90% 4,922 12.09%",
+        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4817,7 +4817,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 4922,
-        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90% 4,922 12.09%",
+        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4825,7 +4825,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 12.09,
-        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90% 4,922 12.09%",
+        "citation": "[Page 7] 7855-0000 Building Office Expenses 31,820 40,697 35,775 -8,877 -27.90%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4840,8 +4840,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -4864,7 +4864,7 @@
       },
       "gl_code": {
         "value": "7860-0000",
-        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13% 3,042 9.44%",
+        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4872,7 +4872,7 @@
       },
       "line_item": {
         "value": "Office Equipment",
-        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13% 3,042 9.44%",
+        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4880,7 +4880,7 @@
       },
       "section": {
         "value": "General & Administrative",
-        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13% 3,042 9.44%",
+        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4888,7 +4888,7 @@
       },
       "prior_year_budget": {
         "value": 25953,
-        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13% 3,042 9.44%",
+        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4896,7 +4896,7 @@
       },
       "prior_year_reforecast": {
         "value": 32216,
-        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13% 3,042 9.44%",
+        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4904,7 +4904,7 @@
       },
       "budget": {
         "value": 29174,
-        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13% 3,042 9.44%",
+        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4912,7 +4912,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -6263,
-        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13% 3,042 9.44%",
+        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4920,7 +4920,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -24.13,
-        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13% 3,042 9.44%",
+        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4928,7 +4928,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": 3042,
-        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13% 3,042 9.44%",
+        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4936,7 +4936,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": 9.44,
-        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13% 3,042 9.44%",
+        "citation": "[Page 7] 7860-0000 Office Equipment 25,953 32,216 29,174 -6,263 -24.13%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4951,8 +4951,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -4975,7 +4975,7 @@
       },
       "gl_code": {
         "value": "7864-0000",
-        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27% -874 -4.10%",
+        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4983,7 +4983,7 @@
       },
       "line_item": {
         "value": "Telephone",
-        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27% -874 -4.10%",
+        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4991,7 +4991,7 @@
       },
       "section": {
         "value": "General & Administrative",
-        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27% -874 -4.10%",
+        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -4999,7 +4999,7 @@
       },
       "prior_year_budget": {
         "value": 21600,
-        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27% -874 -4.10%",
+        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5007,7 +5007,7 @@
       },
       "prior_year_reforecast": {
         "value": 21326,
-        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27% -874 -4.10%",
+        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5015,7 +5015,7 @@
       },
       "budget": {
         "value": 22200,
-        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27% -874 -4.10%",
+        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5023,7 +5023,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 274,
-        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27% -874 -4.10%",
+        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5031,7 +5031,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 1.27,
-        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27% -874 -4.10%",
+        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5039,7 +5039,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -874,
-        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27% -874 -4.10%",
+        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5047,7 +5047,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -4.1,
-        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27% -874 -4.10%",
+        "citation": "[Page 7] 7864-0000 Telephone 21,600 21,326 22,200 274 1.27%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5062,8 +5062,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -5086,7 +5086,7 @@
       },
       "gl_code": {
         "value": "7876-0000",
-        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41% -11,020 -14.70%",
+        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5094,7 +5094,7 @@
       },
       "line_item": {
         "value": "Insurance",
-        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41% -11,020 -14.70%",
+        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5102,7 +5102,7 @@
       },
       "section": {
         "value": "General & Administrative",
-        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41% -11,020 -14.70%",
+        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5110,7 +5110,7 @@
       },
       "prior_year_budget": {
         "value": 67905,
-        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41% -11,020 -14.70%",
+        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5118,7 +5118,7 @@
       },
       "prior_year_reforecast": {
         "value": 74975,
-        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41% -11,020 -14.70%",
+        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5126,7 +5126,7 @@
       },
       "budget": {
         "value": 85995,
-        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41% -11,020 -14.70%",
+        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5134,7 +5134,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": -7071,
-        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41% -11,020 -14.70%",
+        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5142,7 +5142,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": -10.41,
-        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41% -11,020 -14.70%",
+        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5150,7 +5150,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -11020,
-        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41% -11,020 -14.70%",
+        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5158,7 +5158,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -14.7,
-        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41% -11,020 -14.70%",
+        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5166,7 +5166,7 @@
       },
       "explanation_of_variance": {
         "value": "Consultant recommendation is to increase insurance expense by 25-30%",
-        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41% -11,020 -14.70%",
+        "citation": "[Page 7] 7876-0000 Insurance 67,905 74,975 85,995 -7,071 -10.41%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5176,8 +5176,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -5200,7 +5200,7 @@
       },
       "gl_code": {
         "value": "7879-0000",
-        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75% -2,170 -71.62%",
+        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5208,7 +5208,7 @@
       },
       "line_item": {
         "value": "Miscellaneous",
-        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75% -2,170 -71.62%",
+        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5216,7 +5216,7 @@
       },
       "section": {
         "value": "General & Administrative",
-        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75% -2,170 -71.62%",
+        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5224,7 +5224,7 @@
       },
       "prior_year_budget": {
         "value": 12000,
-        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75% -2,170 -71.62%",
+        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5232,7 +5232,7 @@
       },
       "prior_year_reforecast": {
         "value": 3030,
-        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75% -2,170 -71.62%",
+        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5240,7 +5240,7 @@
       },
       "budget": {
         "value": 5200,
-        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75% -2,170 -71.62%",
+        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5248,7 +5248,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 8970,
-        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75% -2,170 -71.62%",
+        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5256,7 +5256,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 74.75,
-        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75% -2,170 -71.62%",
+        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5264,7 +5264,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -2170,
-        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75% -2,170 -71.62%",
+        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5272,7 +5272,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -71.62,
-        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75% -2,170 -71.62%",
+        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5280,7 +5280,7 @@
       },
       "explanation_of_variance": {
         "value": "No tenant events or sporting tickets purchased in 2020 due to the pandemic. The trend is expected to continue in 2021.",
-        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75% -2,170 -71.62%",
+        "citation": "[Page 7] 7879-0000 Miscellaneous 12,000 3,030 5,200 8,970 74.75%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5290,8 +5290,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -5314,7 +5314,7 @@
       },
       "gl_code": {
         "value": "8080-0000",
-        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96% -28,816 -0.71%",
+        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5322,7 +5322,7 @@
       },
       "line_item": {
         "value": "Real Estate Tax Expense",
-        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96% -28,816 -0.71%",
+        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5330,7 +5330,7 @@
       },
       "section": {
         "value": "Real Estate Taxes",
-        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96% -28,816 -0.71%",
+        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5338,7 +5338,7 @@
       },
       "prior_year_budget": {
         "value": 4257447,
-        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96% -28,816 -0.71%",
+        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5346,7 +5346,7 @@
       },
       "prior_year_reforecast": {
         "value": 4046361,
-        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96% -28,816 -0.71%",
+        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5354,7 +5354,7 @@
       },
       "budget": {
         "value": 4075177,
-        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96% -28,816 -0.71%",
+        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5362,7 +5362,7 @@
       },
       "reforecast_vs_prior_budget_variance": {
         "value": 211086,
-        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96% -28,816 -0.71%",
+        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5370,7 +5370,7 @@
       },
       "reforecast_vs_prior_budget_pct": {
         "value": 4.96,
-        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96% -28,816 -0.71%",
+        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5378,7 +5378,7 @@
       },
       "budget_vs_reforecast_variance": {
         "value": -28816,
-        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96% -28,816 -0.71%",
+        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5386,7 +5386,7 @@
       },
       "budget_vs_reforecast_pct": {
         "value": -0.71,
-        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96% -28,816 -0.71%",
+        "citation": "[Page 7] 8080-0000 Real Estate Tax Expense 4,257,447 4,046,361 4,075,177 211,086 4.96%",
         "confidence": 0.85,
         "page_numbers": [
           7
@@ -5401,8 +5401,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -5515,8 +5515,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -5629,8 +5629,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -5740,8 +5740,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -5851,8 +5851,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -5962,8 +5962,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -6076,8 +6076,8 @@
     {
       "property_name": {
         "value": "Lakeview Tower",
-        "citation": "[Page 1] Lakeview Tower",
-        "confidence": 0.95,
+        "citation": "[Page 1] Property RSF: 339,050 / Lakeview Tower",
+        "confidence": 0.6,
         "page_numbers": [
           1
         ]
@@ -6188,16 +6188,16 @@
   "metadata": {
     "model_calls": 3,
     "tokens_in": 18473,
-    "tokens_out": 20104,
-    "cost_usd": 0.011899,
+    "tokens_out": 19424,
+    "cost_usd": 0.011559,
     "models": {
       "anthropic/claude-haiku-5.5": {
         "calls": 3,
         "tokens_in": 18473,
-        "tokens_out": 20104,
-        "cost_usd": 0.0119
+        "tokens_out": 19424,
+        "cost_usd": 0.011559
       }
     },
-    "latency_ms": 29768
+    "latency_ms": 28721
   }
 }

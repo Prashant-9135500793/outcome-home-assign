@@ -7,8 +7,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
+def _str(name: str, default: str) -> str:
+    """Env var, with empty treated as unset (docker compose passes `VAR=` for unset overrides)."""
+    return os.getenv(name) or default
+
+
 def _int(name: str, default: int) -> int:
-    return int(os.getenv(name, str(default)))
+    return int(_str(name, str(default)))
 
 
 # ── LLM gateway (contract: all calls go through these two variables) ─────────
@@ -36,20 +41,26 @@ ALLOWED_MODELS = {
 # gemini-flash 0.75/3.75, sonnet 2/10, gemini-pro 2/12. See DESIGN.md for the routing rationale.
 # Model choice was measured on the sample set (DESIGN.md has the full A/B table).
 # Table documents: many rows, mostly copying cells -> cheap model is enough (haiku: 1.00 on all 4 tables)
-TABLE_MODEL = os.getenv("TABLE_MODEL", MODEL_HAIKU)
+TABLE_MODEL = _str("TABLE_MODEL", MODEL_HAIKU)
 # Single-entry documents (leases, OMs): reading long prose, computing fields. Sonnet was the only
 # model with zero errors on structured lease/OM fields; Gemini Pro, GPT-6.1-sol, Luna, Haiku had 3-7.
-DOCUMENT_MODEL = os.getenv("DOCUMENT_MODEL", MODEL_SONNET)
+DOCUMENT_MODEL = _str("DOCUMENT_MODEL", MODEL_SONNET)
 # Transcribing scanned pages to text (vision)
-OCR_MODEL = os.getenv("OCR_MODEL", MODEL_GLM_VISION)
+OCR_MODEL = _str("OCR_MODEL", MODEL_GLM_VISION)
 
 # Reasoning ("thinking") tokens are billed as output. Copying cells and transcribing pages don't
 # need them. Values: off | low | medium | high | default (leave it to the provider).
-TABLE_REASONING = os.getenv("TABLE_REASONING", "low")  # low: fixes cell counting (t12 0.96 -> 1.00) for ~+$0.006/doc
-DOCUMENT_REASONING = os.getenv("DOCUMENT_REASONING", "default")
-OCR_REASONING = os.getenv("OCR_REASONING", "low")  # GLM-5.3-flash cannot disable reasoning
+TABLE_REASONING = _str("TABLE_REASONING", "low")  # low: fixes cell counting (t12 0.96 -> 1.00) for ~+$0.006/doc
+DOCUMENT_REASONING = _str("DOCUMENT_REASONING", "default")
+OCR_REASONING = _str("OCR_REASONING", "low")  # GLM-5.3-flash cannot disable reasoning
 
-for _m in (TABLE_MODEL, DOCUMENT_MODEL, OCR_MODEL):
+# Evidence page selection for single-entry documents (app/pipeline/selector.py): a cheap model picks
+# the pages that hold each field, and DOCUMENT_MODEL reads only those (plus the opening pages).
+DOCUMENT_PAGE_SELECTION = _str("DOCUMENT_PAGE_SELECTION", "on").lower() not in ("off", "0", "false", "no")
+SELECT_MODEL = _str("SELECT_MODEL", MODEL_HAIKU)
+SELECT_REASONING = _str("SELECT_REASONING", "high")  # low/off: Haiku skips pages (misses); high: full recall on the samples
+
+for _m in (TABLE_MODEL, DOCUMENT_MODEL, OCR_MODEL, SELECT_MODEL):
     if _m not in ALLOWED_MODELS:
         raise ValueError(f"Model {_m!r} is not on the allowed list")
 
@@ -73,6 +84,10 @@ CONFIDENCE_NULL_THRESHOLD: float = 0.3  # model-reported confidence below this -
 
 # Single-entry documents up to this many characters go in one call (~100K tokens).
 SINGLE_CALL_MAX_CHARS: int = _int("SINGLE_CALL_MAX_CHARS", 400_000)
+# Page selection: skip documents shorter than this (little to save); use the full document when the
+# selection would still keep more than this share of it.
+SELECTION_MIN_CHARS: int = _int("SELECTION_MIN_CHARS", 30_000)
+SELECTION_MAX_SHARE: float = float(_str("SELECTION_MAX_SHARE", "0.8"))
 # Table chunking: bounded by input size and by row records (which bounds output tokens).
 TABLE_CHUNK_MAX_CHARS: int = _int("TABLE_CHUNK_MAX_CHARS", 30_000)
 TABLE_CHUNK_MAX_RECORDS: int = _int("TABLE_CHUNK_MAX_RECORDS", 40)

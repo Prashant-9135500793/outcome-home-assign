@@ -31,6 +31,7 @@ from app.pipeline.parser import (
     render_grid_header,
     render_grid_row,
 )
+from app.pipeline.selector import select_text
 from app.pipeline.prompts import (
     build_single_entry_prompt,
     build_table_chunk_prompt,
@@ -344,7 +345,13 @@ async def _extract_single(schema: ExtractionSchema, doc: dict, usage: UsageStats
     warnings: list[str] = []
 
     if len(text) <= config.SINGLE_CALL_MAX_CHARS:
-        raw_fields = await _single_call(schema, text, doc_type, usage)
+        # Cost: let a cheap model pick the evidence pages so DOCUMENT_MODEL reads fewer tokens
+        model_text, sel = await select_text(schema, doc, usage, parse_json_response)
+        note = ""
+        if sel["selection"] != "full":
+            note = ("NOTE: only the parts of the document relevant to the fields are included below "
+                    "(marked excerpts are the edges of omitted pages). If a value is not stated in this text, return null.\n\n")
+        raw_fields = await _single_call(schema, model_text, doc_type, usage, note)
     else:
         parts = _split_pages_for_single(doc["pages"], config.SINGLE_CALL_MAX_CHARS // 2) \
             if len(doc["pages"]) > 1 else \

@@ -7,6 +7,15 @@ services:
       - LLM_BASE_URL=${LLM_BASE_URL:-https://openrouter.ai/api/v1}
       - LLM_API_KEY=${LLM_API_KEY}
       - WORKERS=${WORKERS:-10}
+      # Optional routing/cost overrides (README "Configuration"); empty = built-in default
+      - TABLE_MODEL=${TABLE_MODEL:-}
+      - DOCUMENT_MODEL=${DOCUMENT_MODEL:-}
+      - OCR_MODEL=${OCR_MODEL:-}
+      - TABLE_REASONING=${TABLE_REASONING:-}
+      - DOCUMENT_REASONING=${DOCUMENT_REASONING:-}
+      - OCR_REASONING=${OCR_REASONING:-}
+      - DOCUMENT_PAGE_SELECTION=${DOCUMENT_PAGE_SELECTION:-}
+      - SELECT_REASONING=${SELECT_REASONING:-}
       - DB_PATH=/data/jobs.db
       - UPLOAD_DIR=/data/uploads
     volumes:

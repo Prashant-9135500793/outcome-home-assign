@@ -28,15 +28,15 @@
       },
       "building_address": {
         "value": "250 South Harbor Street, Chicago, Illinois 60606",
-        "citation": "[Page 3] the Land (the \"Land\") known as 250 South Harbor Street, Chicago, Illinois 60606",
-        "confidence": 0.9,
+        "citation": "[Page 3] known as 250 South Harbor Street, Chicago, Illinois 60606",
+        "confidence": 0.93,
         "page_numbers": [
           3
         ]
       },
       "premises": {
         "value": "Suite 500",
-        "citation": "[Page 3] approximately 6,840 rentable square feet known as Suite 500 in the building",
+        "citation": "[Page 3] known as Suite 500 in the building",
         "confidence": 0.97,
         "page_numbers": [
           3
@@ -61,7 +61,7 @@
       "permitted_use": {
         "value": "operation of law office or other general office purpose",
         "citation": "[Page 6] Tenant shall use and occupy the Premises for the operation of law office or other general office purpose.",
-        "confidence": 0.93,
+        "confidence": 0.97,
         "page_numbers": [
           6
         ]
@@ -100,7 +100,7 @@
       },
       "lease_term_months": {
         "value": 127,
-        "citation": "[Page 3] for the term of Ten (10) years Seven (7) months commencing on the 1st day of August, 2010",
+        "citation": "[Page 3] term of Ten (10) years Seven (7) months commencing on the 1st day of August, 2010",
         "confidence": 0.95,
         "page_numbers": [
           3
@@ -120,7 +120,7 @@
           "2019-08-01",
           "2020-08-01"
         ],
-        "citation": "[Page 3] Base Rent table, August 1, 2010 ... August 1, 2020",
+        "citation": "[Page 3] Base Rent table: August 1, 2010 through ... August 1, 2020 through February 28, 2021",
         "confidence": 0.6,
         "page_numbers": [
           3
@@ -140,8 +140,8 @@
           "2020-07-31",
           "2021-02-28"
         ],
-        "citation": "[Page 3] August 1, 2020 through February 28, 2021 | $14,554.00",
-        "confidence": 0.97,
+        "citation": "[Page 3] Base Rent table: ... through July 31, 2011 ... through February 28, 2021",
+        "confidence": 0.6,
         "page_numbers": [
           3
         ]
@@ -160,7 +160,7 @@
           14292,
           14554
         ],
-        "citation": "[Page 3] Base Rent table: $11,934.00 ... $14,554.00",
+        "citation": "[Page 3] $11,934.00 ... $14,554.00",
         "confidence": 0.6,
         "page_numbers": [
           3
@@ -180,7 +180,7 @@
           25.07,
           25.53
         ],
-        "citation": "[Page 3] monthly rent x 12 / 6,840 RSF",
+        "citation": "[Page 3] monthly rent x 12 / 6,840 RSF (computed)",
         "confidence": 0.6,
         "page_numbers": [
           3
@@ -188,7 +188,7 @@
       },
       "total_base_rent": {
         "value": 1675438,
-        "citation": "[Page 3] Base Rent table; 10 years x 12 months plus 7 months at $14,554.00",
+        "citation": "[Page 3] Base Rent schedule: 10 years of annual steps x 12 months plus 7 months at $14,554.00",
         "confidence": 0.6,
         "page_numbers": [
           3
@@ -196,7 +196,7 @@
       },
       "base_rent_escalation": {
         "value": "fixed steps per schedule",
-        "citation": "[Page 3] monthly Base Rent as follows: schedule of annual steps",
+        "citation": "[Page 3] monthly Base Rent increasing each August 1 per table",
         "confidence": 0.6,
         "page_numbers": [
           3
@@ -204,7 +204,7 @@
       },
       "free_rent_months": {
         "value": 0,
-        "citation": "[Page 3] Base Rent table begins August 1, 2010 with full rent; no abatement stated",
+        "citation": "[Page 3] Base Rent table shows rent payable from August 1, 2010",
         "confidence": 0.6,
         "page_numbers": [
           3
@@ -212,8 +212,8 @@
       },
       "security_deposit_amount": {
         "value": 310000,
-        "citation": "[Page 15] Tenant has deposited ... the sum of Three Hundred Ten Thousand and 00/100 Dollars ($310,000.00)",
-        "confidence": 0.6,
+        "citation": "[Page 15] Tenant has deposited with 250 S. HARBOR, LLC. the sum of Three Hundred Ten Thousand and 00/100 Dollars ($310,000.00)",
+        "confidence": 0.95,
         "page_numbers": [
           15
         ]
@@ -221,7 +221,7 @@
       "letter_of_credit_required": {
         "value": false,
         "citation": "[Page 16] In lieu of some or all of the Collateral, Tenant may furnish Landlord an irrevocable Letter of Credit",
-        "confidence": 0.8,
+        "confidence": 0.85,
         "page_numbers": [
           16
         ]
@@ -252,7 +252,7 @@
       },
       "electricity_provision": {
         "value": "Separately metered and billed by Landlord as Additional Rent",
-        "citation": "[Page 6] shall be separately metered ... billed by Landlord and paid by Tenant as Additional Rent (the \"Electricity Usage Fee\")",
+        "citation": "[Page 6] shall be separately metered and shall be the sole responsibility of Tenant, and shall be billed by Landlord and paid by Tenant as Additional Rent",
         "confidence": 0.9,
         "page_numbers": [
           6
@@ -270,8 +270,8 @@
       },
       "ti_allowance_total": {
         "value": 389500,
-        "citation": "[Page 20] up to Three Hundred Eighty-Nine Thousand Five Hundred and 00/100 Dollars ($389,500.00, \"Landlord Contribution\")",
-        "confidence": 0.9,
+        "citation": "[Page 20] up to ... ($389,500.00, \"Landlord Contribution\")",
+        "confidence": 0.6,
         "page_numbers": [
           20
         ]
@@ -279,7 +279,7 @@
       "renewal_option_exists": {
         "value": true,
         "citation": "[Page 16] Tenant shall have the option to renew the term of this Lease for one additional period of Five (5) years",
-        "confidence": 0.98,
+        "confidence": 0.97,
         "page_numbers": [
           16
         ]
@@ -287,7 +287,7 @@
       "renewal_options_count": {
         "value": 1,
         "citation": "[Page 16] one additional period of Five (5) years",
-        "confidence": 0.97,
+        "confidence": 0.95,
         "page_numbers": [
           16
         ]
@@ -296,8 +296,8 @@
         "value": [
           60
         ],
-        "citation": "[Page 16] one additional period of Five (5) years (\"Option Period\")",
-        "confidence": 0.97,
+        "citation": "[Page 16] one additional period of Five (5) years",
+        "confidence": 0.95,
         "page_numbers": [
           16
         ]
@@ -322,7 +322,7 @@
       },
       "termination_fee_description": {
         "value": "unamortized brokers commissions, abated rent and undepreciated build-out costs at 9% interest plus five months of then monthly Base Rent",
-        "citation": "[Page 17] termination fee ... plus an amount equal to five (5) months of the then monthly Base Rent",
+        "citation": "[Page 17] termination fee consisting of (i) the unamortized amount of all brokers commissions and abated rent ... plus an amount equal to five (5) months of the then monthly Base Rent",
         "confidence": 0.6,
         "page_numbers": [
           17
@@ -370,24 +370,30 @@
     }
   ],
   "metadata": {
-    "model_calls": 22,
-    "tokens_in": 93211,
-    "tokens_out": 28114,
-    "cost_usd": 0.13129,
+    "model_calls": 23,
+    "tokens_in": 119914,
+    "tokens_out": 35777,
+    "cost_usd": 0.109021,
     "models": {
       "z-ai/glm-5.3-flash": {
         "calls": 21,
         "tokens_in": 50946,
-        "tokens_out": 23438,
+        "tokens_out": 23433,
         "cost_usd": 0.0
+      },
+      "anthropic/claude-haiku-5.5": {
+        "calls": 1,
+        "tokens_in": 41652,
+        "tokens_out": 7707,
+        "cost_usd": 0.008019
       },
       "anthropic/claude-sonnet-5.5": {
         "calls": 1,
-        "tokens_in": 42265,
-        "tokens_out": 4676,
-        "cost_usd": 0.13129
+        "tokens_in": 27316,
+        "tokens_out": 4637,
+        "cost_usd": 0.101002
       }
     },
-    "latency_ms": 76524
+    "latency_ms": 85919
   }
 }

@@ -1625,16 +1625,16 @@
   "metadata": {
     "model_calls": 1,
     "tokens_in": 3613,
-    "tokens_out": 3098,
-    "cost_usd": 0.00191,
+    "tokens_out": 3401,
+    "cost_usd": 0.002062,
     "models": {
       "anthropic/claude-haiku-5.5": {
         "calls": 1,
         "tokens_in": 3613,
-        "tokens_out": 3098,
-        "cost_usd": 0.00191
+        "tokens_out": 3401,
+        "cost_usd": 0.002062
       }
     },
-    "latency_ms": 13299
+    "latency_ms": 12132
   }
 }
