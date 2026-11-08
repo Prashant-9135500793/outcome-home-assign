@@ -4,8 +4,8 @@ A handover for whoever runs this on Monday. `README.md` has run instructions, pe
 results and the full model comparison.
 
 **Where it stands:** 0.987 mean on the 8 samples (0.984 / 0.987 / 0.987 over three full runs),
-every output `VALID`, 0 hallucinated values, 0 missing rows. About **6¢ per document** ($0.51 for
-the whole sample set). With all 8 documents in flight at once, each finished in 14–80 s.
+every output `VALID`, 0 hallucinated values, 0 missing rows. About **5¢ per document** ($0.42 for
+the whole sample set, down from $0.51 at the same score after evidence page selection). With all 8 documents in flight at once, each finished in 14–80 s.
 
 ## 1. Pipeline
 
@@ -65,15 +65,16 @@ or "rent roll".
 
 | Job | Model | Share of cost | Why |
 |---|---|---|---|
-| Tables (rent rolls, T12s, budgets, box scores) | Haiku 5.5, reasoning `low` | ~30% | 1.000 / 1.000 / 0.999 / 0.997. Copying cells needs care, not intelligence. It is 13× cheaper than Gemini Flash at the same score, and `low` reasoning fixed counting fields for +0.6¢/doc |
-| Leases, OMs | Sonnet 5.5 | ~65% | The only one of 6 models tested with **zero** errors on dates, money, booleans, names and lists. The others had 3–7 |
+| Tables (rent rolls, T12s, budgets, box scores) | Haiku 5.5, reasoning `low` | ~27% | 1.000 / 1.000 / 0.999 / 0.997. Copying cells needs care, not intelligence. It is 13× cheaper than Gemini Flash at the same score, and `low` reasoning fixed counting fields for +0.6¢/doc |
+| Leases, OMs | Sonnet 5.5 | ~68% | The only one of 6 models tested with **zero** errors on dates, money, booleans, names and lists. The others had 3–7 |
+| Evidence page selection (leases, OMs) | Haiku 5.5, reasoning `high` | ~5% | Picks the pages Sonnet needs, so Sonnet reads less: −21% on leases/OMs, −17% per full pass, score unchanged at 0.987. Reasoning `low` skipped answer pages, so it was rejected. Falls back to the full document if the call fails or would keep >80% of it |
 | OCR | GLM-5.3-flash | ~0% | Scanned leases score the same as the digital one, at 0.03/0.08 $/M tokens |
 
 **The main trade-off: Sonnet over Luna for leases.** `gpt-6-luna` matched Sonnet's mean on leases
 at 4% of the cost, but it got a yes/no field wrong at 0.99 confidence. That means its own
 confidence cannot flag its mistakes, so a cheap-first, escalate-on-low-confidence cascade would
-not have caught that error. Wrong values cost more than nulls in the scoring, so I paid about 9¢
-per lease for zero structured errors. Switching to Luna is one env var (`DOCUMENT_MODEL`).
+not have caught that error. Wrong values cost more than nulls in the scoring, so I paid 7–11¢
+per lease (OCR included) for zero structured errors. Switching to Luna is one env var (`DOCUMENT_MODEL`).
 
 **Cost levers already in place.**
 - Reasoning is set per call type, because reasoning tokens are billed as output.

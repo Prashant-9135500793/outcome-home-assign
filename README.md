@@ -68,7 +68,7 @@ Only models on the brief's allowed list are accepted. The service refuses to sta
 ### Tests and the eval loop
 
 ```bash
-.venv/bin/pytest -q                                   # 49 tests, no API calls (LLM is mocked)
+.venv/bin/pytest -q                                   # 55 tests, no API calls (LLM is mocked); 11 skip without the sample files
 
 # with the service running:
 python scripts/run_samples.py                         # all 8 samples -> outputs/, then scores them
@@ -123,8 +123,15 @@ POST /jobs ──► validate type + schema ──► hash(file, schema, org) �
   there (a computed sum, for instance) gets a lower confidence.
 
 ### Single-entry documents (leases, offering memoranda)
-- The whole document goes to `DOCUMENT_MODEL` in one call (up to ~100K tokens). A larger
-  document is split into parts that run in parallel and are merged by confidence.
+- **Evidence page selection** (`app/pipeline/selector.py`). Sonnet's input is most of the cost of
+  a lease, but the answers sit on a few pages: the answer key cites 8 of 25 pages in lease_001 and
+  6 of 22 in om_001. So Haiku (20× cheaper per input token, reasoning `high`) first reads the whole
+  document and names the pages that state or change each field. Sonnet then reads only those
+  pages, plus the opening pages and the edges of neighbouring pages, so a clause split by a page
+  break stays whole. If the call fails, or the selection would keep more than 80% of the
+  document, Sonnet reads the full document. Short documents skip selection.
+- `DOCUMENT_MODEL` extracts all fields in one call (up to ~100K tokens). A larger document is
+  split into parts that run in parallel and are merged by confidence.
 - Each field returns `{value, citation, confidence}`. A value under 0.3 confidence becomes null,
   and a citation that cannot be found in the document text caps the confidence at 0.6.
 - **Field hints** (`app/pipeline/hints.py`) extend the descriptions of known fields with what
@@ -152,15 +159,20 @@ All 8 documents submitted at once to `docker compose up` (`WORKERS=10`). The run
 
 | Document | Kind | Score | Rows | Model calls | Cost | Latency |
 |---|---|---|---|---|---|---|
-| boxscore_001 | CSV, 1 table | **1.000** | 10/10 | 1 | $0.0019 | 14 s |
-| rentroll_001 | XLSX, 3,000-row block layout | **1.000** | 325/325 | 12 | $0.0862 | 56 s |
-| om_001 | PDF, 22 pages | **1.000** | 1/1 | 2 | $0.0531 | 24 s |
-| lease_001 | scanned PDF, 25 pages | **1.000** | 1/1 | 26 | $0.1144 | 74 s |
-| budget_001 | PDF, 8 pages | **0.999** | 55/55 | 3 | $0.0119 | 31 s |
-| t12_001 | XLSX, 12-month statement | **0.997** | 119/119 | 4 | $0.0152 | 29 s |
-| lease_002 | DOCX | **0.975** | 1/1 | 1 | $0.0917 | 24 s |
-| lease_003 | scanned PDF, 21 pages | **0.925** | 1/1 | 22 | $0.1313 | 80 s |
-| **Mean / total** | | **0.987** | | 71 | **$0.5057** | |
+| boxscore_001 | CSV, 1 table | **1.000** | 10/10 | 1 | $0.0021 | 12 s |
+| rentroll_001 | XLSX, 3,000-row block layout | **1.000** | 325/325 | 12 | $0.0846 | 44 s |
+| om_001 | PDF, 22 pages | **1.000** | 1/1 | 3 | $0.0477 | 19 s |
+| lease_001 | scanned PDF, 25 pages | **1.000** | 1/1 | 27 | $0.0842 | 74 s |
+| budget_001 | PDF, 8 pages | **0.999** | 55/55 | 3 | $0.0116 | 29 s |
+| t12_001 | XLSX, 12-month statement | **0.997** | 119/119 | 4 | $0.0155 | 25 s |
+| lease_002 | DOCX | **0.975** | 1/1 | 2 | $0.0671 | 37 s |
+| lease_003 | scanned PDF, 21 pages | **0.925** | 1/1 | 23 | $0.1090 | 86 s |
+| **Mean / total** | | **0.987** | | 75 | **$0.4218** | |
+
+Cost, calls and latency are read from each output's `metadata`. The previous run, before evidence
+page selection, scored the same 0.987 at **$0.5057**. Selection cut the 4 single-entry documents
+from $0.391 to $0.308 (−21%) and the whole pass by 17%. Latency moved by a few seconds either way:
+the selection call adds a step, and Sonnet then reads less.
 
 Hallucinations: **0**. Missing or extra rows: **0**. Stability: three consecutive full runs
 scored **0.984, 0.987, 0.987**.
@@ -199,6 +211,9 @@ scorer uses an LLM judge for free text, which should accept our wording of these
 | H4: apply description-mandated defaults in code ("0 if none", "false otherwise", "Empty list if none") | Removes run-to-run misses on `deposit_held`; generic across schemas |
 | Category-word rule ("Fairhaven International Airport", not "… submarket") | om_001 back to 1.000 every run |
 | Property name printed under the cover title even when it reads like an address ("250 South Harbor") | Removes the last lease_003 variance |
+| **Cost round (accuracy must not drop):** | |
+| H5: Haiku can pick the evidence pages so Sonnet reads less. Selector reasoning `low` | **Rejected**: Haiku skipped answer pages, which turned into nulls |
+| H5 with selector reasoning `high`, opening pages always kept, fall back to the full document above 80% | Mean 0.987 (unchanged), full pass $0.506 → $0.422 (−17%) |
 
 ### Choosing the model for leases and OMs
 
@@ -219,7 +234,7 @@ has them.
 Sonnet was the only model with no structured errors. Luna came close on the mean at 4% of the
 cost, but its misses included a yes/no field (`early_termination_right`) it got wrong at 0.99
 confidence, so its confidence cannot be used to catch its mistakes. Accuracy outweighs cost in
-the scoring, so leases and OMs use Sonnet (about 9¢ per lease). Swapping models is one env var
+the scoring, so leases and OMs use Sonnet (7–11¢ per lease with OCR, after evidence page selection). Swapping models is one env var
 (`DOCUMENT_MODEL=openai/gpt-6-luna`) for anyone who wants the cheaper trade-off.
 
 **Model prices** (OpenRouter, $ per 1M input / output tokens): Haiku 0.10/0.50 · Luna 0.10/0.50 ·
@@ -254,10 +269,11 @@ app/
     parser.py          PDF / DOCX / XLSX / CSV -> text and grids; page rendering
     ocr.py             scanned pages -> vision model transcription
     extractor.py       chunking, extraction, recall check, merging, grounding
+    selector.py        evidence page selection: Haiku picks the pages Sonnet reads
     prompts.py         prompt templates
     hints.py           field-description hints learned from the eval loop
 scripts/run_samples.py eval loop: submit samples, write outputs/, score
-tests/                 49 tests (parsers, chunking, truncation recovery, merging, defaults, API)
+tests/                 55 tests (parsers, chunking, truncation recovery, merging, defaults, page selection, API)
 outputs/               service results for every sample document
 contract/, tools/      interface contract and validator (provided)
 ```
