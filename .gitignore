@@ -31,3 +31,7 @@ jobs.db-wal
 *.db-shm
 *.db-wal
 .idea/
+
+# Sample documents and answers are provided data: never commit them (brief, section 5)
+sample/sample-data-documents/
+sample/sample-data-output-validated/

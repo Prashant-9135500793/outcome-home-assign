@@ -72,6 +72,7 @@ def test_doc_level_detection_from_descriptions():
 
 
 # ── Chunking ─────────────────────────────────────────────────────────────────
+@pytest.mark.skipif(not os.path.isdir(SAMPLE_DOCS), reason="sample documents not present")
 def test_rentroll_chunks_split_only_on_unit_boundaries(monkeypatch):
     monkeypatch.setattr(config, "TABLE_CHUNK_MAX_RECORDS", 40)
     doc = parse_xlsx(os.path.join(SAMPLE_DOCS, "rentroll_001.xlsx"))

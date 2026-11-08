@@ -4,6 +4,7 @@ import pytest
 from app.pipeline.parser import parse_document, parse_csv, parse_xlsx, parse_docx, parse_pdf
 
 SAMPLE_DOCS = "sample/sample-data-documents"
+pytestmark = pytest.mark.skipif(not os.path.isdir(SAMPLE_DOCS), reason="sample documents not present")
 
 
 def test_parse_csv():
