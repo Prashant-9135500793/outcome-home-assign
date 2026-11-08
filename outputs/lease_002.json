@@ -4,7 +4,7 @@
     {
       "tenant_name": {
         "value": "KESTREL ANALYTICS USA LLC",
-        "citation": "[Page 1] by and between 850 N. HARLOW AVENUE LLC ... and KESTREL ANALYTICS USA LLC, a Delaware limited liability company (\"Tenant\")",
+        "citation": "[Page 1] KESTREL ANALYTICS USA LLC, a Delaware limited liability company (\"Tenant\")",
         "confidence": 0.97
       },
       "landlord_legal_name": {
@@ -15,21 +15,21 @@
       "property_name": {
         "value": "Harlow Office Building",
         "citation": "[Cover] Harlow Office Building 850 North Harlow Avenue Naperville, Illinois 60540",
-        "confidence": 0.6
+        "confidence": 0.93
       },
       "building_address": {
         "value": "ONE HARLOW PLACE, 850 N. HARLOW AVENUE, Naperville, Illinois 60540",
         "citation": "[Page 1] commonly known as ONE HARLOW PLACE, 850 N. HARLOW AVENUE, Naperville, Illinois 60540",
-        "confidence": 0.85
+        "confidence": 0.95
       },
       "premises": {
         "value": "Suite 310",
         "citation": "[Page 1] approximately 1,842 rentable square feet known as Suite 310",
-        "confidence": 0.97
+        "confidence": 0.96
       },
       "rentable_square_footage": {
         "value": 1842,
-        "citation": "[Page 1] approximately 1,842 rentable square feet known as Suite 310",
+        "citation": "[Page 1] approximately 1,842 rentable square feet",
         "confidence": 0.97
       },
       "pro_rata_share": {
@@ -39,8 +39,8 @@
       },
       "permitted_use": {
         "value": "general office purposes",
-        "citation": "[OCCUPANCY] Tenant shall use and occupy the Premises for general office purposes and no other purpose.",
-        "confidence": 0.97
+        "citation": "[Page 2] Tenant shall use and occupy the Premises for general office purposes and no other purpose.",
+        "confidence": 0.95
       },
       "lease_execution_date": {
         "value": "2025-08-21",
@@ -54,7 +54,7 @@
       },
       "rent_commencement_date": {
         "value": "2026-01-01",
-        "citation": "[BASE RENT] beginning as of the commencement of the Term, monthly Base Rent shall abate in an amount equal to the first three (3) full calendar months of Base Rent.",
+        "citation": "[Page 2] monthly Base Rent shall abate in an amount equal to the first three (3) full calendar months of Base Rent",
         "confidence": 0.8
       },
       "lease_expiration_date": {
@@ -64,40 +64,40 @@
       },
       "lease_term_months": {
         "value": 19,
-        "citation": "[Page 1] commencing on the 1st day of October, 2025 and terminating on the 30th day of April, 2027",
-        "confidence": 0.95
+        "citation": "[Page 1] for the term of one (1) year and seven (7) months",
+        "confidence": 0.97
       },
       "rent_schedule_start_dates": {
         "value": [
           "2025-10-01"
         ],
-        "citation": "[BASE RENT] October 1, 2025 through April 30, 2027 $2,845.00",
-        "confidence": 0.6
+        "citation": "[Page 2] October 1, 2025 through April 30, 2027 $2,845.00",
+        "confidence": 0.65
       },
       "rent_schedule_end_dates": {
         "value": [
           "2027-04-30"
         ],
-        "citation": "[BASE RENT] October 1, 2025 through April 30, 2027 $2,845.00",
-        "confidence": 0.9
+        "citation": "[Page 2] October 1, 2025 through April 30, 2027 $2,845.00",
+        "confidence": 0.8
       },
       "rent_schedule_monthly_rent": {
         "value": [
           2845
         ],
-        "citation": "[BASE RENT] October 1, 2025 through April 30, 2027 $2,845.00",
+        "citation": "[Page 2] October 1, 2025 through April 30, 2027 $2,845.00",
         "confidence": 0.95
       },
       "rent_schedule_annual_rent_per_rsf": {
         "value": [
           18.53
         ],
-        "citation": "[BASE RENT] $2,845.00 monthly; 1,842 RSF (2845*12/1842)",
+        "citation": "[Page 2] $2,845.00 monthly; 1,842 RSF (2,845 x 12 / 1,842)",
         "confidence": 0.6
       },
       "total_base_rent": {
         "value": 54055,
-        "citation": "[BASE RENT] $2,845.00 per month x 19 months",
+        "citation": "[Page 2] $2,845.00 per month x 19 months",
         "confidence": 0.6
       },
       "base_rent_escalation": {
@@ -107,38 +107,38 @@
       },
       "free_rent_months": {
         "value": 3,
-        "citation": "[BASE RENT] monthly Base Rent shall abate in an amount equal to the first three (3) full calendar months of Base Rent",
+        "citation": "[Page 2] abate in an amount equal to the first three (3) full calendar months of Base Rent",
         "confidence": 0.95
       },
       "security_deposit_amount": {
         "value": 2850,
-        "citation": "[SECURITY DEPOSIT] Two Thousand Eight Hundred Fifty and 00/100 Dollars ($2,850.00)",
+        "citation": "[Page 9] Two Thousand Eight Hundred Fifty and 00/100 Dollars ($2,850.00)",
         "confidence": 0.97
       },
       "letter_of_credit_required": {
         "value": false,
-        "citation": "[SECURITY DEPOSIT] security is a cash deposit (Collateral); no letter of credit is mentioned",
-        "confidence": 0.6
+        "citation": "",
+        "confidence": 0.93
       },
       "expense_structure": {
         "value": null,
         "citation": "",
-        "confidence": 0.6
+        "confidence": 0.75
       },
       "base_year_expenses": {
         "value": null,
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.93
       },
       "base_year_taxes": {
         "value": null,
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.93
       },
       "electricity_provision": {
-        "value": "separately metered and billed directly to Tenant",
-        "citation": "[SERVICES] Electricity ... shall be separately metered and billed directly to, and be the sole responsibility of, Tenant by Commonwealth Edison.",
-        "confidence": 0.6
+        "value": "Separately metered and billed directly to Tenant by Commonwealth Edison",
+        "citation": "[Page 3] shall be separately metered and billed directly to, and be the sole responsibility of, Tenant by Commonwealth Edison",
+        "confidence": 0.93
       },
       "parking_spaces": {
         "value": null,
@@ -153,42 +153,42 @@
       "ti_allowance_total": {
         "value": null,
         "citation": "",
-        "confidence": 0.92
+        "confidence": 0.93
       },
       "renewal_option_exists": {
         "value": false,
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.92
       },
       "renewal_options_count": {
         "value": 0,
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.92
       },
       "renewal_term_months": {
         "value": [],
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.92
       },
       "renewal_notice_months": {
         "value": [],
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.92
       },
       "early_termination_right": {
         "value": false,
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.92
       },
       "termination_fee_description": {
         "value": null,
         "citation": "",
-        "confidence": 0.9
+        "confidence": 0.92
       },
       "right_to_sublet": {
-        "value": "with landlord's prior written consent, not unreasonably withheld",
-        "citation": "[ASSIGNMENT AND SUBLETTING] Tenant shall not, without the prior written consent of Landlord (i) assign this Lease ... Landlord agrees not to unreasonably withhold its consent",
-        "confidence": 0.8
+        "value": "with the prior written consent of Landlord, not unreasonably withheld",
+        "citation": "[Page 8] Tenant shall not, without the prior written consent of Landlord (i) assign this Lease... Landlord agrees not to unreasonably withhold its consent",
+        "confidence": 0.85
       },
       "guarantor_name": {
         "value": null,
@@ -199,34 +199,34 @@
         "value": [
           "PINNACLE REALTY"
         ],
-        "citation": "[REAL ESTATE BROKER] the Tenant has dealt with (and only with) PINNACLE REALTY, as broker",
-        "confidence": 0.95
+        "citation": "[Page 10] Tenant has dealt with (and only with) PINNACLE REALTY, as broker",
+        "confidence": 0.93
       },
       "late_fee": {
-        "value": "$150.00 late charge plus interest at 4% in excess of the Corporate base rate announced by FIRST MERIDIAN",
-        "citation": "[MISCELLANEOUS] subject to a One Hundred Fifty and 00/100 Dollars ($150.00) late charge and shall bear interest ... four (4%) percent in excess of the Corporate base rate",
-        "confidence": 0.88
+        "value": "One Hundred Fifty and 00/100 Dollars ($150.00) late charge and shall bear interest until paid at the annual rate of four (4%) percent in excess of the Corporate base rate then announced from time to time by FIRST MERIDIAN",
+        "citation": "[Page 7] will be subject to a One Hundred Fifty and 00/100 Dollars ($150.00) late charge and shall bear interest until paid at the annual rate of four (4%) percent...",
+        "confidence": 0.92
       },
       "holdover_rent": {
-        "value": "double the Base Rent and any appropriate Additional Rent then applicable",
-        "citation": "[HOLDING OVER] Tenant shall pay to Landlord double the Base Rent set forth in Paragraph 1 hereof and any appropriate Additional Rent then applicable",
-        "confidence": 0.93
+        "value": "double the Base Rent set forth in Paragraph 1 hereof and any appropriate Additional Rent then applicable",
+        "citation": "[Page 8] Tenant shall pay to Landlord double the Base Rent set forth in Paragraph 1 hereof and any appropriate Additional Rent then applicable",
+        "confidence": 0.92
       }
     }
   ],
   "metadata": {
     "model_calls": 1,
-    "tokens_in": 27580,
-    "tokens_out": 3570,
-    "cost_usd": 0.09086,
+    "tokens_in": 28548,
+    "tokens_out": 3462,
+    "cost_usd": 0.091716,
     "models": {
       "anthropic/claude-sonnet-5.5": {
         "calls": 1,
-        "tokens_in": 27580,
-        "tokens_out": 3570,
-        "cost_usd": 0.09086
+        "tokens_in": 28548,
+        "tokens_out": 3462,
+        "cost_usd": 0.091716
       }
     },
-    "latency_ms": 29733
+    "latency_ms": 23767
   }
 }

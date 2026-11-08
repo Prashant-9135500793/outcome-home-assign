@@ -413,7 +413,7 @@
         ]
       },
       "months_with_activity": {
-        "value": 9,
+        "value": 10,
         "citation": "[Report1!A17:A17] computed from record rows 17-17",
         "confidence": 0.8,
         "source_locations": [
@@ -1673,7 +1673,7 @@
         ]
       },
       "months_with_activity": {
-        "value": 6,
+        "value": 5,
         "citation": "[Report1!A34:A34] computed from record rows 34-34",
         "confidence": 0.8,
         "source_locations": [
@@ -3605,7 +3605,7 @@
         ]
       },
       "months_with_activity": {
-        "value": 7,
+        "value": 8,
         "citation": "[Report1!A61:A61] computed from record rows 61-61",
         "confidence": 0.8,
         "source_locations": [
@@ -9025,7 +9025,7 @@
         ]
       },
       "section": {
-        "value": "OTHER NON-OPERATING EXPENSES",
+        "value": "NON-OPERATING EXPENSES",
         "citation": "[Report1!A133:A133] computed from record rows 133-133",
         "confidence": 0.8,
         "source_locations": [
@@ -10000,17 +10000,17 @@
   ],
   "metadata": {
     "model_calls": 4,
-    "tokens_in": 27950,
-    "tokens_out": 24755,
+    "tokens_in": 28270,
+    "tokens_out": 24693,
     "cost_usd": 0.015173,
     "models": {
       "anthropic/claude-haiku-5.5": {
         "calls": 4,
-        "tokens_in": 27950,
-        "tokens_out": 24755,
-        "cost_usd": 0.015172
+        "tokens_in": 28270,
+        "tokens_out": 24693,
+        "cost_usd": 0.015173
       }
     },
-    "latency_ms": 29809
+    "latency_ms": 26604
   }
 }

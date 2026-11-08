@@ -9766,7 +9766,7 @@
         ]
       },
       "deposit_held": {
-        "value": null,
+        "value": 0,
         "citation": "",
         "confidence": 0.7
       },
@@ -33032,11 +33032,8 @@
       },
       "deposit_held": {
         "value": 0,
-        "citation": "[Willow Creek Commons!I2320] 0",
-        "confidence": 0.95,
-        "source_locations": [
-          "Willow Creek Commons!I2320"
-        ]
+        "citation": "",
+        "confidence": 0.7
       },
       "balance": {
         "value": null,
@@ -38132,11 +38129,8 @@
       },
       "deposit_held": {
         "value": 0,
-        "citation": "[Willow Creek Commons!I2683] 0",
-        "confidence": 0.95,
-        "source_locations": [
-          "Willow Creek Commons!I2683"
-        ]
+        "citation": "",
+        "confidence": 0.7
       },
       "balance": {
         "value": null,
@@ -40100,11 +40094,8 @@
       },
       "deposit_held": {
         "value": 0,
-        "citation": "[Willow Creek Commons!I2827] 0",
-        "confidence": 0.95,
-        "source_locations": [
-          "Willow Creek Commons!I2827"
-        ]
+        "citation": "",
+        "confidence": 0.7
       },
       "balance": {
         "value": null,
@@ -42625,17 +42616,17 @@
   ],
   "metadata": {
     "model_calls": 12,
-    "tokens_in": 236989,
-    "tokens_out": 121873,
-    "cost_usd": 0.084635,
+    "tokens_in": 237949,
+    "tokens_out": 124798,
+    "cost_usd": 0.086194,
     "models": {
       "anthropic/claude-haiku-5.5": {
         "calls": 12,
-        "tokens_in": 236989,
-        "tokens_out": 121873,
-        "cost_usd": 0.084635
+        "tokens_in": 237949,
+        "tokens_out": 124798,
+        "cost_usd": 0.086194
       }
     },
-    "latency_ms": 53495
+    "latency_ms": 53952
   }
 }

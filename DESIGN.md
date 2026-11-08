@@ -46,9 +46,10 @@ The big trade-off: **gpt-6-luna** matched Sonnet's mean score on leases at **4% 
 but it got a yes/no field wrong at 0.99 confidence. Accuracy carries more weight than cost, so
 Sonnet stays at about 9¢ per lease. Luna is one env var away (`DOCUMENT_MODEL`).
 
-**Spend:** about $3.00 of $10 in total. A full sample pass costs about $0.50: roughly 60% Sonnet
-on leases and OM, 35% Haiku on tables, and close to $0 for OCR. The six-model comparison cost
-about $1.30 and is where most of the budget went.
+**Spend:** $6.68 of $10 in total. A full sample pass costs about $0.50: roughly 65% Sonnet on
+leases and OM, 30% Haiku on tables, and close to $0 for OCR. The six-model comparison cost about
+$1.30. The second accuracy round (0.959 → 0.987) cost about $3.70, most of it on full Docker runs
+used to confirm stability.
 
 ## What broke, and what we did
 
@@ -80,6 +81,17 @@ with jittered backoff and never fail a job.
 - **Possible answer-key inconsistency:** lease free-text answers mix verbatim quotes (`late_fee`)
   with paraphrases (`right_to_sublet`). We follow the per-field style through hints, but this
   is where the strict validator and an LLM judge will disagree most.
+
+## How much to trust the 0.987
+
+The tables (1.000 / 0.999 / 0.997 / 1.000) come from generic mechanisms (grid rendering,
+record-boundary chunking, the recall check, literal row rules), so I expect them to carry over to
+new documents. The lease score is more optimistic. The last +0.03 came from hints that teach the
+answer key's *style* for free-text fields (verbatim spans, phrase patterns), learned on only 3
+leases. They should help on new leases from the same pipeline, but 3 examples is little evidence,
+and on free text the real LLM-judged scorer is lenient anyway. What I am confident in is that
+every structured lease field (dates, money, booleans, lists) was correct on all three leases in
+every run.
 
 ## With another week
 

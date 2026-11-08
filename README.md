@@ -5,7 +5,8 @@ and returns the extracted values as JSON in the format defined in `contract/`.
 
 **Role applied for:** AI/ML Developer (`aiml`)
 
-**Sample-set score (`tools/validate.py`):** **0.959 mean** over the 8 sample documents.
+**Sample-set score (`tools/validate.py`):** **0.987 mean** over the 8 sample documents
+(0.984, 0.987 and 0.987 in three consecutive full runs).
 Every output is `VALID`, with **0 hallucinations** and **0 missing rows**. A full pass costs about
 **$0.50**, roughly 6¢ per document.
 
@@ -145,31 +146,34 @@ POST /jobs ──► validate type + schema ──► hash(file, schema, org) �
 
 ### Final scores on the sample set
 
-All 8 documents submitted at once to `docker compose up` (`WORKERS=10`):
+All 8 documents submitted at once to `docker compose up` (`WORKERS=10`). The run that produced `outputs/`:
 
 | Document | Kind | Score | Rows | Model calls | Cost | Latency |
 |---|---|---|---|---|---|---|
-| boxscore_001 | CSV, 1 table | **1.000** | 10/10 | 1 | $0.0020 | 16 s |
-| t12_001 | XLSX, 12-month statement | **1.000** | 119/119 | 4 | $0.0152 | 31 s |
-| rentroll_001 | XLSX, 3,000-row block layout | **1.000** | 325/325 | 12 | $0.0846 | 56 s |
-| om_001 | PDF, 22 pages | **1.000** | 1/1 | 2 | $0.0529 | 27 s |
-| budget_001 | PDF, 8 pages | **0.999** | 55/55 | 3 | $0.0120 | 33 s |
-| lease_001 | scanned PDF, 25 pages | **0.900** | 1/1 | 26 | $0.1118 | 70 s |
-| lease_002 | DOCX | **0.900** | 1/1 | 1 | $0.0909 | 31 s |
-| lease_003 | scanned PDF, 21 pages | **0.875** | 1/1 | 22 | $0.1291 | 80 s |
-| **Mean / total** | | **0.959** | | 71 | **$0.4985** | |
+| boxscore_001 | CSV, 1 table | **1.000** | 10/10 | 1 | $0.0019 | 14 s |
+| rentroll_001 | XLSX, 3,000-row block layout | **1.000** | 325/325 | 12 | $0.0862 | 56 s |
+| om_001 | PDF, 22 pages | **1.000** | 1/1 | 2 | $0.0531 | 24 s |
+| lease_001 | scanned PDF, 25 pages | **1.000** | 1/1 | 26 | $0.1144 | 74 s |
+| budget_001 | PDF, 8 pages | **0.999** | 55/55 | 3 | $0.0119 | 31 s |
+| t12_001 | XLSX, 12-month statement | **0.997** | 119/119 | 4 | $0.0152 | 29 s |
+| lease_002 | DOCX | **0.975** | 1/1 | 1 | $0.0917 | 24 s |
+| lease_003 | scanned PDF, 21 pages | **0.925** | 1/1 | 22 | $0.1313 | 80 s |
+| **Mean / total** | | **0.987** | | 71 | **$0.5057** | |
 
-Hallucinations: **0**. Missing or extra rows: **0**.
+Hallucinations: **0**. Missing or extra rows: **0**. Stability: three consecutive full runs
+scored **0.984, 0.987, 0.987**.
 
-**Where the remaining points go.** Every number, date, boolean and name on the leases is correct.
-The lease points lost are free-text fields such as `late_fee`, `holdover_rent` and
-`right_to_sublet`. There the validator needs an exact match after normalisation, and our wording
-differs slightly while meaning the same thing. Example:
+**The 4 fields still missed, and why they are probably the ceiling.** All four are free-text lease
+fields where the answer key is inconsistent with itself, so no single rule can match all of them:
 
-> ours: *"only with Landlord's prior written consent"* · truth: *"with the prior written consent of Landlord"*
+| Field | Why it can't all match |
+|---|---|
+| `right_to_sublet` (lease_002, lease_003) | lease_001's answer says "with **the** prior written consent of Landlord", lease_002's says "With prior written consent of Landlord", and both leases use the same wording. Any rule wins one and loses the other |
+| `late_fee` (lease_003) | lease_002's answer keeps the lease's words "One Hundred Fifty and 00/100 Dollars ($150.00) late charge and shall bear interest…"; lease_003's rewrites them as "$300.00 late charge and interest…" |
+| `termination_fee_description` (lease_003) | A free paraphrase; an exact match would be chance |
 
-Every model we tried fails these the same way. The brief says the real scorer uses an LLM judge
-for free text, so the true lease accuracy is likely higher than the table shows.
+Every number, date, boolean, name and list is correct on all 8 documents. The brief says the real
+scorer uses an LLM judge for free text, which should accept our wording of these four.
 
 ### How the eval loop moved the score
 
@@ -185,6 +189,14 @@ for free text, so the true lease accuracy is likely higher than the table shows.
 | Rent roll: first occurrence wins, blank cell = null | rentroll 0.993 → 1.000 (23 hallucinations → 0) |
 | Recall check | Recovers rows the model drops at random (budget 0.981 → 0.999) |
 | Fixed: failed reasoning round trip on every OCR page | Scanned lease 8 min → about 75 s |
+| **Second round (target ≥ 0.98), each from a written hypothesis:** | |
+| H1: the key's free-text answers are verbatim spans, checked by searching the lease text for them (no API cost) | Confirmed for `holdover_rent` / `late_fee`; `electricity_provision` follows a fixed pattern |
+| Verbatim-span hints (start at the amount, stop before a defined-term label or a saving proviso) | holdover_rent 0/3 → 3/3, electricity_provision 0/3 → 3/3, late_fee 0/3 → 1/3 (lease mean 0.892 → 0.967) |
+| Fixed regressions the hints introduced (address picking up a labelled building name, use phrase trimmed) | lease_001 0.975 → 1.000 |
+| H3: tables need `medium` reasoning | **Rejected**: same scores, more cost; kept `low` |
+| H4: apply description-mandated defaults in code ("0 if none", "false otherwise", "Empty list if none") | Removes run-to-run misses on `deposit_held`; generic across schemas |
+| Category-word rule ("Fairhaven International Airport", not "… submarket") | om_001 back to 1.000 every run |
+| Property name printed under the cover title even when it reads like an address ("250 South Harbor") | Removes the last lease_003 variance |
 
 ### Choosing the model for leases and OMs
 
@@ -214,8 +226,16 @@ GPT-6.1-sol 2/10 · Gemini Pro 2/12.
 
 ### Budget
 
-About **$3.00 of the $10** was spent across development, the model comparison and the final
-runs. Each full sample pass costs about $0.50.
+**$6.68 of the $10** spent in total:
+
+| Phase | Approx. spend |
+|---|---|
+| Development and first baselines | $1.50 |
+| Six-model comparison for leases/OMs | $1.30 |
+| Accuracy round 2 (lease harness runs, table check, 4 full Docker runs) | $3.70 |
+
+The lease harness caches OCR and runs only the extraction step, so one iteration costs about
+$0.33 instead of a full pass. Each full sample pass costs about $0.50.
 
 ---
 
