@@ -228,3 +228,15 @@ def test_duplicate_identifier_keeps_first_occurrence():
     doc = {"type": "csv", "text": ""}
     rows = _merge_rows(schema, "code", ["code", "units"], results, doc, "")
     assert len(rows) == 1 and rows[0]["units"].value is None
+
+
+@pytest.mark.parametrize("desc,expected", [
+    ("Security deposit held for the unit, as a number. 0 if none.", 0),
+    ("The scheduled monthly charge ... 0 if the unit has no rent charge line.", 0),
+    ("true if the lease requires a letter of credit as security, false otherwise.", False),
+    ("List of the brokers named in the lease. Empty list if none are named.", []),
+    ("Outstanding resident balance for the unit, as a number.", None),
+    ("Full name of any guarantor of the lease. null if there is no guaranty.", None),
+])
+def test_absent_default_follows_description(desc, expected):
+    assert extractor.absent_default(desc) == expected

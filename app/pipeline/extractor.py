@@ -134,6 +134,24 @@ def try_parse_date(val: str) -> Optional[str]:
     return None
 
 
+_ABSENT_ZERO_RE = re.compile(r"\b0 if (none|no\b|blank|empty|absent|not|there is no|the \w+ (has|have) no)", re.I)
+_ABSENT_FALSE_RE = re.compile(r"\bfalse otherwise\b", re.I)
+_ABSENT_LIST_RE = re.compile(r"\bempty list if\b", re.I)
+
+
+def absent_default(field_desc: str) -> Any:
+    """The value a description says to use when the thing is absent ("0 if none", "false otherwise",
+    "Empty list if none"). Returning it for a null is following the field list, not guessing."""
+    d = field_desc or ""
+    if _ABSENT_ZERO_RE.search(d):
+        return 0
+    if _ABSENT_FALSE_RE.search(d):
+        return False
+    if _ABSENT_LIST_RE.search(d):
+        return []
+    return None
+
+
 def coerce_value(value: Any, field_key: str, field_desc: str) -> Any:
     """Normalise a model value: strip null-ish strings, numbers out of money strings, ISO dates."""
     if value is None:
@@ -382,6 +400,9 @@ def _finalize_field(key, desc, value, citation, conf, squashed_text, doc_type,
         logger.info(f"Nulling {key}: confidence {conf:.2f} below threshold")
         value = None
     if value is None:
+        default = absent_default(desc)
+        if default is not None:
+            return FieldResult(value=default, citation="", confidence=0.7)
         return FieldResult(value=None, citation="", confidence=round(max(conf, 0.5), 2))
 
     # Trust check: a citation we cannot find in the document lowers confidence
@@ -870,7 +891,8 @@ def _build_row(schema, row_keys, raw: dict, grid: Optional[dict], doc, squashed)
         else:
             value = coerce_value(value, k, desc)
         if value is None:
-            entry[k] = FieldResult(value=None, citation="", confidence=0.7)
+            default = absent_default(desc)
+            entry[k] = FieldResult(value=default, citation="", confidence=0.7)
             continue
 
         if grid is not None:

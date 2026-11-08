@@ -24,19 +24,47 @@ GENERIC: dict[str, str] = {
 
 BY_SCHEMA: dict[str, dict[str, str]] = {
     "lease_abstraction": {
-        "property_name": "Prefer the building name on the cover/title page or where the lease names the "
-                         "building. Never a street address.",
-        "building_address": "Copy the address phrase as the lease body defines the premises' location (e.g. the "
-                            "text after 'commonly known as' or 'located at'), including any building name that is "
-                            "part of that phrase, with city, state and ZIP.",
+        "property_name": "The building or project name as the lease titles it, usually printed under the "
+                         "document title on the cover page (e.g. 'OFFICE BUILDING LEASE' / 'Harlow Office Building'), or "
+                         "on a reference page ('BUILDING: Hollis Office Plaza'). Copy it as printed there, even when it "
+                         "reads like an address (e.g. '250 South Harbor'); do not add 'Street', city or ZIP. Null only "
+                         "if the lease never names the building.",
+        "building_address": "When the lease body says the premises are 'commonly known as' or 'located at' an "
+                            "address, copy everything after those words through the ZIP code, unchanged, including a "
+                            "building name written there (e.g. 'ONE HARLOW PLACE, 850 N. HARLOW AVENUE, Naperville, "
+                            "Illinois 60540'). Otherwise give the street address with city, state and ZIP. A building "
+                            "name on its own labelled line (e.g. 'BUILDING: X' above the street) is the property name, "
+                            "not part of the address.",
         "base_rent_escalation": _SHORT_PHRASE + " Examples: '3% annually', 'fixed steps per schedule', 'none'.",
         "expense_structure": _SHORT_PHRASE,
-        "electricity_provision": _SHORT_PHRASE,
-        "right_to_sublet": _SHORT_PHRASE + " e.g. 'with landlord consent, not unreasonably withheld'.",
-        "permitted_use": "The permitted use phrase only (e.g. 'general office purposes'), without restrictions "
-                         "such as 'and no other purpose'.",
-        "late_fee": "Quote the operative late-charge language of the lease (amount and any interest rate).",
-        "holdover_rent": "Quote the operative holdover-rent language of the lease.",
+        "electricity_provision": "One short phrase built from the lease's own words: how electricity is supplied or "
+                                 "metered, then who bills or pays and how, joined with 'and' (not commas). Name the "
+                                 "billing party when the lease does, e.g. 'Separately metered and billed directly to "
+                                 "Tenant by <utility company>', 'Separately metered and billed by Landlord as Additional "
+                                 "Rent', 'Furnished by Landlord during ordinary business hours; excess electricity "
+                                 "separately metered and paid by Tenant as additional rent'. When Landlord bills it, write 'billed by "
+                                 "Landlord as Additional Rent' (not 'billed by Landlord and paid by Tenant').",
+        "right_to_sublet": "State the consent requirement as a positive phrase using the lease's own words, e.g. "
+                           "'with the prior written consent of Landlord'. If the same clause adds a reasonableness "
+                           "standard, append it as ', not unreasonably withheld'. Add a stated exception in parentheses.",
+        "permitted_use": "Copy the permitted-use phrase verbatim as the use clause states it, i.e. the words after "
+                         "'use and occupy the Premises for (the)' (e.g. 'operation of law office or other general "
+                         "office purpose', 'general office purposes'), dropping only trailing restrictions such as "
+                         "'and no other purpose'. If a reference page states the use (e.g. 'USE: General Office: "
+                         "Architecture'), copy that.",
+        "late_fee": "Copy VERBATIM, word for word, the lease's late-charge language: start at the amount itself "
+                    "(e.g. 'the greater of: (a) $75.00, or (b) ...' or 'One Hundred Fifty and 00/100 Dollars ($150.00) "
+                    "late charge and shall bear interest ...') and continue through any interest-rate language, stopping "
+                    "before a saving proviso such as 'unless a lesser rate shall then be the maximum rate permissible "
+                    "by law ...'. Omit only the lead-in before the amount ('will be subject to a', 'equal "
+                    "to'). Do not shorten, reorder or paraphrase.",
+        "holdover_rent": "Copy VERBATIM, word for word, the phrase stating the holdover rent: start at the multiplier "
+                         "or percentage (e.g. 'double the Base Rent ...', '150% of the amount of ...') and continue to "
+                         "the end of that rent description, keeping cross-references such as 'set forth in Paragraph 1 "
+                         "hereof' and qualifiers such as 'prorated on a daily basis'. Stop before a defined-term label "
+                         "like (the \"Holdover Rate\") and before a following 'for each month ...' clause. Write a "
+                         "spelled-out percentage as its numeral only ('one hundred seventy-five percent (175%)' -> "
+                         "'175%'). Do not shorten or paraphrase.",
     },
 }
 

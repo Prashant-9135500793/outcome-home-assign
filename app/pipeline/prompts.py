@@ -48,6 +48,7 @@ VALUE_RULES = """VALUE FORMAT
 - Lists: JSON arrays, in document order. A list field with nothing to list is [].
 - Text: copy it as written (trim surrounding whitespace). Do not paraphrase fields that say "exactly as shown" or "verbatim".
 - Short-phrase fields ("in a short phrase"): answer concisely using the document's own key words, no parenthetical explanations.
+- Names: give the name itself, without appending the field's own category word (a submarket is "Fairhaven International Airport", not "Fairhaven International Airport submarket"; a county is "Cook", not "Cook County", unless the document's name includes it).
 - Identifiers and names: copy the complete value that follows its label, with every part, space and punctuation mark (e.g. "Property =  417 .417" -> "417 .417", not "417"). Drop only the label itself.
 
 NULL DISCIPLINE (very important)
